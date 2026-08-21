@@ -6,6 +6,7 @@ export default function GlobalPresence() {
                 <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-center">
                     <div className="order-2 lg:order-1">
                         <img className="rounded-2xl shadow-2xl w-full h-[360px] md:h-[500px] object-cover"
+                            alt="Vertical urban garden representing DGL environmental responsibility"
                             loading="lazy" decoding="async"
                             data-alt="A lush, vertical urban garden on the side of a modern glass skyscraper. The image captures the harmony between advanced technology and environmental sustainability. Soft morning sunlight filters through the greenery, reflecting off the building's glass facade. The mood is hopeful, clean, and futuristic, emphasizing a commitment to ESG principles in a corporate context."
                             src={assetPath("/asset/esg/1.webp")} />

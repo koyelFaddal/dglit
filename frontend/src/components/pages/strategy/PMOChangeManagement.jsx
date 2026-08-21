@@ -1,11 +1,9 @@
-"use client";
-
 import Link from "next/link";
 import { assetPath } from "@/lib/assetPath";
 
 export default function PMOChangeManagement() {
     return (
-        <main className="pt-24 pb-12 px-gutter bg-background min-h-[70vh]">
+        <main className="strategy-page pt-24 pb-12 px-gutter bg-background min-h-[70vh]">
             <section className="max-w-container-max mx-auto pb-12 md:pb-16 pt-6 md:pt-8">
                 <div className="grid grid-cols-1 xl:grid-cols-[1.05fr_0.95fr] gap-6 items-stretch">
                     <div className="bg-surface-container-lowest border border-outline-variant/40 rounded-xl architectural-shadow p-8 md:p-12 lg:p-14">
@@ -28,7 +26,7 @@ export default function PMOChangeManagement() {
                             </div>
                         </div>
                         <div className="rounded-xl overflow-hidden border border-outline-variant/35 bg-surface-container-lowest shadow-sm">
-                            <img src={assetPath("/asset/pmo/1.png")} alt="PMO delivery control visual" className="w-full aspect-[16/10] object-cover object-center block" />
+                            <img src={assetPath("/asset/pmo/1-optimized.webp")} alt="PMO delivery control visual" fetchPriority="high" loading="eager" decoding="async" className="w-full aspect-[16/10] object-cover object-center block" />
                         </div>
                     </div>
                 </div>
@@ -76,7 +74,7 @@ export default function PMOChangeManagement() {
                         <h2 className="font-headline-lg text-headline-lg text-on-surface mb-5">Move people through change with clarity, not noise.</h2>
                         <p className="font-body-md text-body-md text-on-surface-variant mb-6">Adoption planning combines stakeholder insight, communications, training, readiness checks, and manager enablement.</p>
                         <div className="rounded-lg overflow-hidden border border-outline-variant/35 bg-surface-container-lowest shadow-sm">
-                            <img src={assetPath("/asset/pmo/2.png")} alt="PMO change adoption visual" className="w-full aspect-[4/3] object-cover object-center block" />
+                            <img src={assetPath("/asset/pmo/2-optimized.webp")} alt="PMO change adoption visual" loading="lazy" decoding="async" className="w-full aspect-[4/3] object-cover object-center block" />
                         </div>
                     </div>
                     <div className="bg-surface-container-lowest border border-outline-variant/40 rounded-xl p-6 md:p-8 flex flex-col gap-4">
@@ -132,7 +130,7 @@ export default function PMOChangeManagement() {
                         </div>
                     </div>
                     <div className="rounded-xl overflow-hidden border border-outline-variant/35 bg-surface-container-lowest shadow-sm">
-                        <img src={assetPath("/asset/pmo/3.png")} alt="PMO decision and delivery visual" className="w-full h-full min-h-[320px] object-cover object-center block" />
+                        <img src={assetPath("/asset/pmo/3-optimized.webp")} alt="PMO decision and delivery visual" loading="lazy" decoding="async" className="w-full h-full min-h-[320px] object-cover object-center block" />
                     </div>
                 </div>
             </section>

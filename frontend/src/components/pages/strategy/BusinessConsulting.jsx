@@ -1,10 +1,8 @@
-"use client";
-
 import Link from "next/link";
 
 export default function BusinessConsulting() {
     return (
-        <main className="pt-24 pb-12 px-gutter bg-background min-h-[70vh]">
+        <main className="strategy-page pt-24 pb-12 px-gutter bg-background min-h-[70vh]">
             <section className="max-w-container-max mx-auto pb-14 md:pb-20 pt-8 md:pt-10">
                 <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 lg:gap-14 items-stretch">
                     <div className="lg:col-span-7 flex flex-col justify-center">

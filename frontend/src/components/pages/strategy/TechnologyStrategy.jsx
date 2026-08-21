@@ -1,11 +1,9 @@
-"use client";
-
 import Link from "next/link";
 import { assetPath } from "@/lib/assetPath";
 
 export default function TechnologyStrategy() {
     return (
-        <main className="pt-24 pb-12 px-gutter bg-background min-h-[70vh]">
+        <main className="strategy-page pt-24 pb-12 px-gutter bg-background min-h-[70vh]">
             <section className="max-w-container-max mx-auto pb-12 md:pb-16 pt-6 md:pt-8">
                 <div className="bg-surface-container-lowest border border-outline-variant/40 rounded-xl architectural-shadow overflow-hidden">
                     <div className="grid grid-cols-1 lg:grid-cols-12">
@@ -32,7 +30,7 @@ export default function TechnologyStrategy() {
                                 </div>
                             </div>
                             <div className="mt-6 w-full rounded-xl overflow-hidden border border-outline-variant/35 bg-surface-container-lowest shadow-sm">
-                                <img src={assetPath("/asset/ai_digital_transform/1.png")} alt="AI digital transformation visual" className="w-full aspect-[16/10] object-cover object-center block" />
+                                <img src={assetPath("/asset/ai_digital_transform/1-optimized.webp")} alt="AI digital transformation visual" fetchPriority="high" loading="eager" decoding="async" className="w-full aspect-[16/10] object-cover object-center block" />
                             </div>
                         </div>
                     </div>

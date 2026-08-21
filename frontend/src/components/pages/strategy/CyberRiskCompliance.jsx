@@ -1,11 +1,9 @@
-"use client";
-
 import Link from "next/link";
 import { assetPath } from "@/lib/assetPath";
 
 export default function CyberRiskCompliance() {
     return (
-        <main className="pt-24 pb-12 px-gutter bg-background min-h-[70vh]">
+        <main className="strategy-page pt-24 pb-12 px-gutter bg-background min-h-[70vh]">
             <section className="max-w-container-max mx-auto pb-12 md:pb-16 pt-6 md:pt-8">
                 <div className="grid grid-cols-1 xl:grid-cols-[0.95fr_1.25fr] gap-6">
                     <div className="bg-surface-container-lowest border border-outline-variant/40 rounded-xl architectural-shadow p-8 md:p-12">
@@ -43,7 +41,7 @@ export default function CyberRiskCompliance() {
                             <h2 className="font-headline-md text-headline-md text-on-surface mb-4">Four decisions, one governed cyber path.</h2>
                             <p className="font-body-md text-body-md text-on-surface-variant">This section uses a command-sequence layout for Cyber, replacing the repeated equal-card pattern used elsewhere.</p>
                             <div className="mt-7 md:mt-9 rounded-lg overflow-hidden border border-outline-variant/30 bg-surface-container-lowest shadow-sm max-w-[420px]">
-                                <img src={assetPath("/asset/cyber/1.png")} alt="Cyber risk command visual" className="w-full aspect-[4/3] object-cover object-center block" />
+                                <img src={assetPath("/asset/cyber/1-optimized.webp")} alt="Cyber risk command visual" loading="lazy" decoding="async" className="w-full aspect-[4/3] object-cover object-center block" />
                             </div>
                         </div>
                         <div className="p-6 md:p-8">

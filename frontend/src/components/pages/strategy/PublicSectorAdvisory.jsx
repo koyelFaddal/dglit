@@ -1,11 +1,9 @@
-"use client";
-
 import Link from "next/link";
 import { assetPath } from "@/lib/assetPath";
 
 export default function PublicSectorAdvisory() {
     return (
-        <main className="pt-24 pb-12 px-gutter bg-background min-h-[70vh]">
+        <main className="strategy-page pt-24 pb-12 px-gutter bg-background min-h-[70vh]">
             <section className="max-w-container-max mx-auto pb-12 md:pb-16 pt-6 md:pt-8">
                 <div className="grid grid-cols-1 lg:grid-cols-12 gap-6 lg:gap-8 items-stretch">
                     <div className="lg:col-span-8 bg-surface-container-lowest border border-outline-variant/40 rounded-xl architectural-shadow p-8 md:p-12 lg:p-14">
@@ -99,7 +97,7 @@ export default function PublicSectorAdvisory() {
                             <span className="font-label-caps text-label-caps text-primary uppercase tracking-widest block mb-4">Resident Lens</span>
                             <p className="font-body-md text-body-md text-on-surface-variant mb-6">Public service design is strongest when policy, operations, data, and access standards are tested against real user journeys.</p>
                             <div className="rounded-lg overflow-hidden border border-outline-variant/35 bg-surface-container-lowest shadow-sm mb-5">
-                                <img src={assetPath("/asset/public_sector/1.png")} alt="Public sector resident journey visual" className="w-full aspect-[4/3] object-cover object-center block" />
+                                <img src={assetPath("/asset/public_sector/1-optimized.webp")} alt="Public sector resident journey visual" loading="lazy" decoding="async" className="w-full aspect-[4/3] object-cover object-center block" />
                             </div>
                             <div className="rounded-lg bg-surface-container-lowest border border-outline-variant/40 p-5"><span className="font-label-caps text-label-caps text-primary uppercase">Output</span><p className="font-body-sm text-body-sm text-on-surface-variant mt-2">Journey map, friction log, channel model, and improvement backlog.</p></div>
                         </div>

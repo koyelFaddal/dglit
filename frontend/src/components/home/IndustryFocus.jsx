@@ -22,6 +22,7 @@ export default function IndustryFocus() {
                         <div
                             className="col-span-12 lg:col-span-8 relative group cursor-pointer overflow-hidden rounded-lg architectural-shadow">
                             <img className="w-full h-[420px] md:h-[500px] object-cover group-hover:scale-105 transition-transform duration-700"
+                                alt="Financial analytics dashboards illustrating a successful digital transformation"
                                 loading="lazy" decoding="async"
                                 data-alt="A close-up shot of a high-resolution dashboard showing intricate financial data and real-time analytics on multiple glowing monitors in a dark, focused control room environment. The aesthetic is clean and high-tech, with sharp typography and a professional blue and teal color palette. The image conveys precision, intelligence, and successful data management."
                                 src={assetPath("/asset/our_success/1-optimized.webp")} />
