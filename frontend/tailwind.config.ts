@@ -1,0 +1,121 @@
+import type { Config } from "tailwindcss";
+
+const htmlTheme = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    "colors": {
+                        "accent-amber": "#FFAA2B",
+                        "on-primary-container": "#e3e6ff",
+                        "secondary-fixed-dim": "#2ddbde",
+                        "secondary-container": "#56f5f8",
+                        "surface": "#f7f9fb",
+                        "secondary": "#00696b",
+                        "tertiary-fixed-dim": "#c8c6c5",
+                        "primary": "#0041c8",
+                        "error-container": "#ffdad6",
+                        "on-error-container": "#93000a",
+                        "background": "#f7f9fb",
+                        "inverse-on-surface": "#eff1f3",
+                        "outline-variant": "#c3c5d9",
+                        "on-surface": "#191c1e",
+                        "surface-container-low": "#f2f4f6",
+                        "surface-dim": "#d8dadc",
+                        "on-secondary": "#ffffff",
+                        "primary-fixed-dim": "#b6c4ff",
+                        "outline": "#737688",
+                        "on-primary": "#ffffff",
+                        "on-tertiary-fixed-variant": "#474746",
+                        "on-background": "#191c1e",
+                        "on-secondary-container": "#006e70",
+                        "text-primary": "#1D1D1D",
+                        "on-surface-variant": "#434656",
+                        "inverse-surface": "#2d3133",
+                        "inverse-primary": "#b6c4ff",
+                        "surface-variant": "#e0e3e5",
+                        "surface-container": "#eceef0",
+                        "on-primary-fixed-variant": "#0039b3",
+                        "on-secondary-fixed-variant": "#004f51",
+                        "surface-bright": "#f7f9fb",
+                        "on-primary-fixed": "#001551",
+                        "on-tertiary": "#ffffff",
+                        "surface-container-highest": "#e0e3e5",
+                        "tertiary-fixed": "#e5e2e1",
+                        "on-secondary-fixed": "#002020",
+                        "surface-container-high": "#e6e8ea",
+                        "surface-subtle": "#F1F5F9",
+                        "on-tertiary-fixed": "#1b1b1b",
+                        "surface-container-lowest": "#ffffff",
+                        "error": "#ba1a1a",
+                        "text-secondary": "#64748B",
+                        "on-error": "#ffffff",
+                        "accent-teal": "#0D9488",
+                        "secondary-fixed": "#5af8fb",
+                        "surface-card": "#FFFFFF",
+                        "surface-lowest": "#FFFFFF",
+                        "border-quiet": "#E2E8F0",
+                        "primary-container": "#0055ff",
+                        "on-tertiary-container": "#e9e6e6",
+                        "tertiary-container": "#686767",
+                        "surface-tint": "#004dea",
+                        "tertiary": "#504f4f",
+                        "primary-fixed": "#dce1ff"
+                    },
+                    "borderRadius": {
+                        "DEFAULT": "0.125rem",
+                        "lg": "0.25rem",
+                        "xl": "0.5rem",
+                        "full": "0.75rem"
+                    },
+                    "spacing": {
+                        "gutter": "24px",
+                        "container-max": "1280px",
+                        "margin-desktop": "64px",
+                        "unit": "4px",
+                        "margin-mobile": "20px",
+                        "section-padding": "120px",
+                        "section-gap": "120px"
+                    },
+                    "fontFamily": {
+                        "headline-lg-mobile": ["Hanken Grotesk"],
+                        "headline-md": ["Hanken Grotesk"],
+                        "display-lg": ["Hanken Grotesk"],
+                        "body-sm": ["Inter"],
+                        "display-sm": ["Hanken Grotesk"],
+                        "body-lg": ["Inter"],
+                        "label-caps": ["Inter"],
+                        "headline-lg": ["Hanken Grotesk"],
+                        "headline-sm": ["Hanken Grotesk"],
+                        "label-sm": ["Inter"],
+                        "label-bold": ["Inter"],
+                        "body-md": ["Inter"]
+                    },
+                    "fontSize": {
+                        "headline-lg-mobile": ["28px", { "lineHeight": "36px", "letterSpacing": "-0.01em", "fontWeight": "600" }],
+                        "headline-md": ["24px", { "lineHeight": "32px", "fontWeight": "600" }],
+                        "display-lg": ["64px", { "lineHeight": "72px", "letterSpacing": "-0.02em", "fontWeight": "700" }],
+                        "body-sm": ["14px", { "lineHeight": "20px", "fontWeight": "400" }],
+                        "display-sm": ["48px", { "lineHeight": "56px", "letterSpacing": "-0.02em", "fontWeight": "700" }],
+                        "body-lg": ["18px", { "lineHeight": "28px", "fontWeight": "400" }],
+                        "label-caps": ["12px", { "lineHeight": "16px", "letterSpacing": "0.05em", "fontWeight": "700" }],
+                        "headline-lg": ["32px", { "lineHeight": "40px", "letterSpacing": "-0.01em", "fontWeight": "600" }],
+                        "headline-sm": ["20px", { "lineHeight": "28px", "fontWeight": "700" }],
+                        "label-sm": ["12px", { "lineHeight": "16px", "letterSpacing": "0.05em", "fontWeight": "600" }],
+                        "body-md": ["16px", { "lineHeight": "24px", "fontWeight": "400" }]
+                    }
+                },
+            },
+        };
+
+const config: Config = {
+  content: [
+    "./src/pages/**/*.{js,ts,jsx,tsx,mdx}",
+    "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
+    "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
+  ],
+  darkMode: htmlTheme.darkMode as Config["darkMode"],
+  theme: htmlTheme.theme as unknown as Config["theme"],
+  plugins: [],
+};
+
+export default config;
