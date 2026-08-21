@@ -1,14 +1,12 @@
-"use client";
-
 import Link from "next/link";
 import { assetPath } from "@/lib/assetPath";
 
 export default function AIFutureOfWork() {
   return (
-    <main className="pt-24 pb-12 px-gutter bg-background min-h-[70vh]">
+    <main className="optimized-page pt-24 pb-12 px-gutter bg-background min-h-[70vh]">
       <section className="relative -mt-24 md:-mt-8 min-h-[620px] lg:min-h-[660px] flex items-center pt-24 md:pt-20 pb-12 overflow-hidden bg-white -mx-gutter">
                           <div className="absolute inset-0 z-0">
-                              <img src={assetPath("/asset/insight/ai_future_work/1.png")} alt="AI enabled workplace transformation" className="w-full h-full object-cover object-center opacity-85 blur-[2px] md:blur-[1px] scale-[1.01]" />
+                              <img src={assetPath("/asset/insight/ai_future_work/1-optimized.webp")} alt="AI enabled workplace transformation" className="w-full h-full object-cover object-center opacity-85 blur-[2px] md:blur-[1px] scale-[1.01]" fetchPriority="high" loading="eager" decoding="async" />
                               <div className="absolute inset-0 bg-gradient-to-r from-white via-white/78 to-white/24"></div>
                               <div className="absolute inset-0 bg-gradient-to-t from-white/76 via-transparent to-white/16"></div>
                               <div className="absolute left-0 top-0 h-full w-2/3 bg-[#E0F7FA]/40 blur-3xl opacity-90"></div>
@@ -194,7 +192,7 @@ export default function AIFutureOfWork() {
                       <section className="max-w-container-max mx-auto py-10 md:py-14 border-y border-outline-variant/30">
                           <div className="grid grid-cols-1 lg:grid-cols-[1.08fr_0.92fr] gap-8 lg:gap-12 items-center">
                               <div className="relative overflow-hidden rounded-xl border border-outline-variant/35 bg-white">
-                                  <img src={assetPath("/asset/insight/ai_future_work/2.png")} alt="AI adoption planning and workforce readiness session" className="w-full h-[340px] md:h-[460px] object-cover" />
+                                  <img src={assetPath("/asset/insight/ai_future_work/2-optimized.webp")} alt="AI adoption planning and workforce readiness session" className="w-full h-[340px] md:h-[460px] object-cover" loading="lazy" decoding="async" />
                                   <div className="absolute left-4 right-4 bottom-4 rounded-xl border border-white/70 bg-white/88 p-4 md:p-5">
                                       <div className="grid grid-cols-1 sm:grid-cols-3 gap-3">
                                           <span className="font-label-caps text-label-caps text-primary uppercase">Search less</span>
@@ -381,7 +379,7 @@ export default function AIFutureOfWork() {
                       </section>
                       <section className="max-w-container-max mx-auto py-10 md:py-14">
                           <div className="relative overflow-hidden rounded-xl border border-outline-variant/35 bg-white">
-                              <img src={assetPath("/asset/insight/ai_future_work/3.png")} alt="Future workforce planning and digital employee experience" className="absolute inset-0 hidden lg:block h-full w-1/2 object-cover" />
+                              <img src={assetPath("/asset/insight/ai_future_work/3-optimized.webp")} alt="Future workforce planning and digital employee experience" className="absolute inset-0 hidden lg:block h-full w-1/2 object-cover" loading="lazy" decoding="async" />
                               <div className="grid grid-cols-1 lg:grid-cols-[1fr_1fr]">
                                   <div className="hidden lg:block"></div>
                                   <div className="p-6 md:p-8 lg:p-10">

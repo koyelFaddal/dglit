@@ -1,13 +1,11 @@
-"use client";
-
 import Link from "next/link";
 import { assetPath } from "@/lib/assetPath";
 
 export default function NonprofitCharity() {
   return (
-    <main className="pt-24 pb-12 px-gutter bg-background min-h-[70vh]">
+    <main className="optimized-page pt-24 pb-12 px-gutter bg-background min-h-[70vh]">
       <section className="nonprofit-hero-section relative -mt-24 md:-mt-8 mb-12 -mx-gutter min-h-[620px] md:min-h-[520px] flex items-start overflow-hidden bg-white">
-                          <img src={assetPath("/asset/industry/non_profit_charity/1.png")} alt="Non-profit and charity digital transformation for mission-driven impact" className="nonprofit-hero-image absolute inset-0 w-full h-full object-cover blur-[1.5px] scale-[1.01]" />
+                          <img src={assetPath("/asset/industry/non_profit_charity/1-optimized.webp")} alt="Non-profit and charity digital transformation for mission-driven impact" className="nonprofit-hero-image absolute inset-0 w-full h-full object-cover blur-[1.5px] scale-[1.01]" fetchPriority="high" loading="eager" decoding="async" />
                           <div className="absolute inset-0 bg-white/78"></div>
                           <div className="absolute inset-0 bg-[#E0F7FA]/30"></div>
                           <div className="absolute left-0 top-0 h-full w-2/3 bg-primary-fixed/25 blur-3xl opacity-70"></div>
@@ -68,7 +66,7 @@ export default function NonprofitCharity() {
                       </section>
                       <section className="relative left-1/2 w-screen -translate-x-1/2 lg:left-auto lg:w-auto lg:translate-x-0 lg:mx-auto max-w-none lg:max-w-container-max py-10 md:py-14 bg-[#E0F7FA]/30 px-4 md:px-8 lg:rounded-xl">
                           <div className="grid grid-cols-1 lg:grid-cols-[1.03fr_0.97fr] gap-8 lg:gap-12 items-center">
-                              <img src={assetPath("/asset/industry/non_profit_charity/2.png")} alt="Non-profit team planning donor engagement and community outreach" className="w-full h-[300px] md:h-[410px] object-cover rounded-xl border border-outline-variant/35 shadow-sm" />
+                              <img src={assetPath("/asset/industry/non_profit_charity/2-optimized.webp")} alt="Non-profit team planning donor engagement and community outreach" className="w-full h-[300px] md:h-[410px] object-cover rounded-xl border border-outline-variant/35 shadow-sm" loading="lazy" decoding="async" />
                               <div>
                                   <span className="font-label-caps text-label-caps text-secondary uppercase tracking-widest block mb-4">Fundraising &amp; Donor Engagement</span>
                                   <h2 className="nonprofit-mobile-heading font-headline-lg text-headline-lg text-on-surface mb-4"><span className="hidden sm:inline">Build supporter relationships that are easier to understand, manage, and grow.</span><span className="sm:hidden">Build stronger supporter relationships.</span></h2>
@@ -168,7 +166,7 @@ export default function NonprofitCharity() {
                       </section>
                       <section className="max-w-container-max mx-auto py-10 md:py-14 border-y border-outline-variant/30">
                           <div className="grid grid-cols-1 lg:grid-cols-[1.02fr_0.98fr] gap-8 lg:gap-12 items-center">
-                              <img src={assetPath("/asset/industry/non_profit_charity/3.png")} alt="Community outreach and social impact program coordination" className="w-full h-[300px] md:h-[390px] object-cover rounded-xl border border-outline-variant/35 shadow-sm" />
+                              <img src={assetPath("/asset/industry/non_profit_charity/3-optimized.webp")} alt="Community outreach and social impact program coordination" className="w-full h-[300px] md:h-[390px] object-cover rounded-xl border border-outline-variant/35 shadow-sm" loading="lazy" decoding="async" />
                               <div>
                                   <span className="font-label-caps text-label-caps text-secondary uppercase tracking-widest block mb-4">Community Outreach Programs</span>
                                   <h2 className="font-headline-lg text-headline-lg text-on-surface mb-4">Coordinate outreach where community needs, partners, and resources meet.</h2>

@@ -1,13 +1,11 @@
-"use client";
-
 import Link from "next/link";
 import { assetPath } from "@/lib/assetPath";
 
 export default function EnterpriseSystemsCaseStudies() {
     return (
-        <main className="pt-24 pb-12 px-gutter bg-background min-h-[70vh]">
+        <main className="optimized-page pt-24 pb-12 px-gutter bg-background min-h-[70vh]">
             <section className="relative -mt-24 md:-mt-8 mb-10 md:mb-12 -mx-gutter min-h-[560px] md:min-h-[540px] lg:min-h-[560px] flex items-start overflow-hidden bg-white">
-                <img src={assetPath("/asset/case_studies/enterprise/1.png")} alt="Enterprise systems transformation command center" className="absolute inset-0 w-full h-full object-cover blur-[3px] md:blur-[1.25px] scale-[1.01]" />
+                <img src={assetPath("/asset/case_studies/enterprise/1-optimized.webp")} alt="Enterprise systems transformation command center" className="absolute inset-0 w-full h-full object-cover blur-[3px] md:blur-[1.25px] scale-[1.01]" fetchPriority="high" loading="eager" decoding="async" />
                 <div className="absolute inset-0 bg-white/78"></div>
                 <div className="absolute inset-0 bg-[#E0F7FA]/30"></div>
                 <div className="absolute left-0 top-0 h-full w-3/5 bg-primary-fixed/20 blur-3xl opacity-70"></div>
@@ -46,7 +44,7 @@ export default function EnterpriseSystemsCaseStudies() {
             <section className="max-w-container-max mx-auto py-10 md:py-14 border-y border-outline-variant/30">
                 <div className="grid grid-cols-1 lg:grid-cols-[0.88fr_1.12fr] gap-8 lg:gap-12 items-stretch">
                     <div className="relative min-h-[360px] md:min-h-[460px] overflow-hidden rounded-xl border border-outline-variant/35">
-                        <img src={assetPath("/asset/case_studies/enterprise/2.png")} alt="Enterprise program team reviewing operating data" className="absolute inset-0 w-full h-full object-cover" />
+                        <img src={assetPath("/asset/case_studies/enterprise/2-optimized.webp")} alt="Enterprise program team reviewing operating data" className="absolute inset-0 w-full h-full object-cover" loading="lazy" decoding="async" />
                         <div className="absolute inset-0 bg-gradient-to-t from-white via-white/62 to-white/12"></div>
                         <div className="absolute left-0 bottom-0 right-0 p-6 md:p-8">
                             <span className="font-label-caps text-label-caps text-secondary uppercase tracking-widest block mb-3">Featured Transformation Story</span>
@@ -144,7 +142,7 @@ export default function EnterpriseSystemsCaseStudies() {
             </section>
             <section className="max-w-container-max mx-auto py-10 md:py-14">
                 <div className="grid grid-cols-1 lg:grid-cols-[0.96fr_1.04fr] gap-8 lg:gap-12 items-center">
-                    <img src={assetPath("/asset/case_studies/enterprise/3.png")} alt="Enterprise governance and compliance reporting workspace" className="w-full h-[300px] md:h-[430px] object-cover rounded-xl border border-outline-variant/35 shadow-sm" />
+                    <img src={assetPath("/asset/case_studies/enterprise/3-optimized.webp")} alt="Enterprise governance and compliance reporting workspace" className="w-full h-[300px] md:h-[430px] object-cover rounded-xl border border-outline-variant/35 shadow-sm" loading="lazy" decoding="async" />
                     <div>
                         <span className="font-label-caps text-label-caps text-secondary uppercase tracking-widest block mb-4">Governance &amp; Compliance Enhancements</span>
                         <h2 className="font-headline-lg text-headline-lg text-on-surface mb-4">Controls became part of the workflow instead of a separate evidence chase.</h2>

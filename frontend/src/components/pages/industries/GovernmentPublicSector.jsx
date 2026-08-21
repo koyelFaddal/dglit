@@ -1,13 +1,11 @@
-"use client";
-
 import Link from "next/link";
 import { assetPath } from "@/lib/assetPath";
 
 export default function GovernmentPublicSector() {
   return (
-    <main className="pt-24 pb-12 px-gutter bg-background min-h-[70vh]">
+    <main className="optimized-page pt-24 pb-12 px-gutter bg-background min-h-[70vh]">
       <section className="relative -mt-8 mb-12 -mx-gutter min-h-[620px] md:min-h-[680px] flex items-end overflow-hidden bg-white">
-                          <img src={assetPath("/asset/industry/government_public_sector/1.png")} alt="Government digital transformation and public service modernization" className="absolute inset-0 w-full h-full object-cover blur-[1.5px] scale-[1.01]" />
+                          <img src={assetPath("/asset/industry/government_public_sector/1-optimized.webp")} alt="Government digital transformation and public service modernization" className="absolute inset-0 w-full h-full object-cover blur-[1.5px] scale-[1.01]" fetchPriority="high" loading="eager" decoding="async" />
                           <div className="absolute inset-0 bg-white/78"></div>
                           <div className="absolute inset-0 bg-[#E0F7FA]/30"></div>
                           <div className="relative z-10 w-full max-w-container-max mx-auto px-gutter pb-20 md:pb-28 pt-12">
@@ -38,7 +36,7 @@ export default function GovernmentPublicSector() {
                                       <div className="border-l-4 border-secondary bg-[#E0F7FA]/30 p-4"><h3 className="font-headline-sm text-headline-sm mb-2">Institutional control</h3><p className="font-body-sm text-body-sm text-on-surface-variant">Decision rights, audit evidence, and service ownership built into delivery.</p></div>
                                   </div>
                               </div>
-                              <img src={assetPath("/asset/industry/government_public_sector/2.png")} alt="Public sector service planning and modernization workshop" className="w-full h-[320px] md:h-[420px] object-cover rounded-xl border border-outline-variant/35 shadow-sm" />
+                              <img src={assetPath("/asset/industry/government_public_sector/2-optimized.webp")} alt="Public sector service planning and modernization workshop" className="w-full h-[320px] md:h-[420px] object-cover rounded-xl border border-outline-variant/35 shadow-sm" loading="lazy" decoding="async" />
                           </div>
                       </section>
                       <section className="-mx-gutter sm:mx-auto max-w-container-max py-10 md:py-14 bg-[#E0F7FA]/30 px-4 sm:px-6 md:px-8 rounded-none sm:rounded-xl">
@@ -81,7 +79,7 @@ export default function GovernmentPublicSector() {
                       </section>
                       <section className="max-w-container-max mx-auto py-12 md:py-14">
                           <div className="grid grid-cols-1 lg:grid-cols-[1.05fr_0.95fr] gap-8 lg:gap-12 items-center">
-                              <img src={assetPath("/asset/industry/government_public_sector/3.png")} alt="Citizen service delivery and government operations" className="w-full h-[300px] md:h-[390px] object-cover rounded-xl border border-outline-variant/35 shadow-sm" />
+                              <img src={assetPath("/asset/industry/government_public_sector/3-optimized.webp")} alt="Citizen service delivery and government operations" className="w-full h-[300px] md:h-[390px] object-cover rounded-xl border border-outline-variant/35 shadow-sm" loading="lazy" decoding="async" />
                               <div>
                                   <span className="font-label-caps text-label-caps text-secondary uppercase tracking-widest block mb-4">Citizen Service Journey</span>
                                   <h2 className="font-headline-lg text-headline-lg text-on-surface mb-5">Design services around the moments that matter.</h2>
@@ -119,7 +117,7 @@ export default function GovernmentPublicSector() {
                                       <div><span className="material-symbols-outlined text-primary mb-3">rocket_launch</span><h3 className="font-headline-sm text-headline-sm mb-2">Mobilize</h3><p className="font-body-sm text-body-sm text-on-surface-variant">Sequence funding, procurement, delivery waves, pilots, and benefits realization.</p></div>
                                   </div>
                               </div>
-                              <img src={assetPath("/asset/industry/government_public_sector/4.png")} alt="Public infrastructure and smart government program planning" className="w-full h-full min-h-[320px] object-cover rounded-xl border border-outline-variant/35 shadow-sm" />
+                              <img src={assetPath("/asset/industry/government_public_sector/4-optimized.webp")} alt="Public infrastructure and smart government program planning" className="w-full h-full min-h-[320px] object-cover rounded-xl border border-outline-variant/35 shadow-sm" loading="lazy" decoding="async" />
                           </div>
                       </section>
                       <section className="max-w-container-max mx-auto py-10 md:py-12 bg-[#E0F7FA]/30 rounded-xl px-6 md:px-8">

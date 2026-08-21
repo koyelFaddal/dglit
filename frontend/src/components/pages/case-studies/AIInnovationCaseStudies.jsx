@@ -1,14 +1,12 @@
-"use client";
-
 import Link from "next/link";
 import { assetPath } from "@/lib/assetPath";
 
 export default function AIInnovationCaseStudies() {
     return (
-        <main className="pt-24 pb-12 px-gutter bg-background min-h-[70vh]">
+        <main className="optimized-page pt-24 pb-12 px-gutter bg-background min-h-[70vh]">
             <section className="relative -mt-24 min-h-[680px] lg:min-h-[760px] flex items-center pt-20 overflow-hidden bg-surface -mx-gutter">
                 <div className="absolute inset-0 z-0">
-                    <img alt="AI innovation case study workspace" className="hero-visual-balance w-full h-full object-cover object-center lg:object-right opacity-80" src={assetPath("/asset/case_studies/ai_innovation/1.png")} />
+                    <img alt="AI innovation case study workspace" className="hero-visual-balance w-full h-full object-cover object-center lg:object-right opacity-80" src={assetPath("/asset/case_studies/ai_innovation/1-optimized.webp")} fetchPriority="high" loading="eager" decoding="async" />
                     <div className="absolute inset-0 bg-gradient-to-r from-background via-background/75 to-background/10"></div>
                     <div className="absolute inset-0 bg-gradient-to-t from-background/70 via-transparent to-background/20"></div>
                     <div className="absolute left-0 top-0 h-full w-2/3 bg-primary-fixed/25 blur-3xl opacity-70"></div>
@@ -47,7 +45,7 @@ export default function AIInnovationCaseStudies() {
             <section className="max-w-container-max mx-auto py-10 md:py-14 border-y border-outline-variant/30">
                 <div className="grid grid-cols-1 lg:grid-cols-[1.12fr_0.88fr] gap-8 lg:gap-12 items-stretch">
                     <div className="relative min-h-[430px] md:min-h-[520px] overflow-hidden rounded-xl border border-outline-variant/35">
-                        <img src={assetPath("/asset/case_studies/ai_innovation/2.png")} alt="AI assistant performance review and innovation case study" className="absolute inset-0 w-full h-full object-cover" />
+                        <img src={assetPath("/asset/case_studies/ai_innovation/2-optimized.webp")} alt="AI assistant performance review and innovation case study" className="absolute inset-0 w-full h-full object-cover" loading="lazy" decoding="async" />
                         <div className="absolute inset-0 bg-gradient-to-t from-white via-white/62 to-white/10"></div>
                         <div className="absolute top-6 left-6 right-6 flex flex-wrap gap-3">
                             <span className="bg-white/85 border border-outline-variant/40 rounded-lg px-4 py-2 font-label-caps text-label-caps text-primary uppercase">Knowledge assistant</span>
@@ -113,7 +111,7 @@ export default function AIInnovationCaseStudies() {
             </section>
             <section className="max-w-container-max mx-auto py-10 md:py-14">
                 <div className="grid grid-cols-1 lg:grid-cols-[0.92fr_1.08fr] gap-8 lg:gap-12 items-center">
-                    <img src={assetPath("/asset/case_studies/ai_innovation/3.png")} alt="AI data readiness and governance review" className="w-full h-[320px] md:h-[470px] object-cover rounded-xl border border-outline-variant/35 shadow-sm" />
+                    <img src={assetPath("/asset/case_studies/ai_innovation/3-optimized.webp")} alt="AI data readiness and governance review" className="w-full h-[320px] md:h-[470px] object-cover rounded-xl border border-outline-variant/35 shadow-sm" loading="lazy" decoding="async" />
                     <div>
                         <span className="font-label-caps text-label-caps text-secondary uppercase tracking-widest block mb-4">Data &amp; AI Enablement</span>
                         <h2 className="font-headline-lg text-headline-lg text-on-surface mb-4">Data readiness was treated as an operating responsibility.</h2>

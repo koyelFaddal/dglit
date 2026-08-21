@@ -1,13 +1,11 @@
-"use client";
-
 import Link from "next/link";
 import { assetPath } from "@/lib/assetPath";
 
 export default function PublicSectorCaseStudies() {
     return (
-        <main className="pt-24 pb-12 px-gutter bg-background min-h-[70vh]">
+        <main className="optimized-page pt-24 pb-12 px-gutter bg-background min-h-[70vh]">
             <section className="relative -mt-24 md:-mt-8 mb-4 -mx-gutter min-h-[600px] md:min-h-[580px] flex items-center overflow-hidden bg-white">
-                <img src={assetPath("/asset/case_studies/public_sector/1.png")} alt="Public sector case studies and service modernization outcomes" className="absolute inset-0 h-full w-full object-cover object-center opacity-34 blur-[0.75px] scale-[1.01] hero-visual-balance" />
+                <img src={assetPath("/asset/case_studies/public_sector/1-optimized.webp")} alt="Public sector case studies and service modernization outcomes" className="absolute inset-0 h-full w-full object-cover object-center opacity-34 blur-[0.75px] scale-[1.01] hero-visual-balance" fetchPriority="high" loading="eager" decoding="async" />
                 <div className="absolute inset-0 bg-white/76"></div>
                 <div className="absolute inset-0 bg-[#E0F7FA]/20"></div>
                 <div className="absolute left-0 top-0 h-full w-[64%] bg-white/48"></div>
@@ -74,7 +72,7 @@ export default function PublicSectorCaseStudies() {
             <section id="public-sector-featured-story" className="-mx-gutter md:mx-auto max-w-container-max py-8 md:py-10 px-gutter md:px-8 bg-[#E0F7FA]/25 rounded-none md:rounded-xl">
                 <div className="grid grid-cols-1 lg:grid-cols-[0.40fr_0.60fr] gap-5 lg:gap-7 items-center">
                     <div className="relative min-h-[250px] md:min-h-[300px] lg:min-h-[330px] rounded-xl overflow-hidden border border-outline-variant/35 architectural-shadow">
-                        <img src={assetPath("/asset/case_studies/public_sector/2.png")} alt="Public sector transformation workshop and service delivery planning" className="absolute inset-0 w-full h-full object-cover" />
+                        <img src={assetPath("/asset/case_studies/public_sector/2-optimized.webp")} alt="Public sector transformation workshop and service delivery planning" className="absolute inset-0 w-full h-full object-cover" loading="lazy" decoding="async" />
                         <div className="absolute inset-0 bg-gradient-to-t from-black/78 via-black/32 to-black/4"></div>
                     </div>
                     <div className="bg-white border border-outline-variant/35 rounded-xl overflow-hidden architectural-shadow">
@@ -153,7 +151,7 @@ export default function PublicSectorCaseStudies() {
             <section className="max-w-container-max mx-auto py-10 md:py-14">
                 <div className="grid grid-cols-1 lg:grid-cols-[0.96fr_1.04fr] gap-8 lg:gap-12 items-center">
                     <div className="rounded-xl overflow-hidden border border-outline-variant/35 bg-white shadow-sm">
-                        <img src={assetPath("/asset/case_studies/public_sector/3.png")} alt="Digital platform modernization for public service teams" className="w-full h-[300px] md:h-[430px] object-cover" />
+                        <img src={assetPath("/asset/case_studies/public_sector/3-optimized.webp")} alt="Digital platform modernization for public service teams" className="w-full h-[300px] md:h-[430px] object-cover" loading="lazy" decoding="async" />
                     </div>
                     <div>
                         <span className="font-label-caps text-label-caps text-secondary uppercase tracking-widest block mb-4">Platform Rationalization</span>

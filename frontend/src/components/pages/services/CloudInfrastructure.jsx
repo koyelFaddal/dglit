@@ -1,14 +1,12 @@
-"use client";
-
 import Link from "next/link";
 import { assetPath } from "@/lib/assetPath";
 
 export default function CloudInfrastructure() {
   return (
-    <main className="pt-24 pb-12 px-gutter bg-background min-h-[70vh]">
+    <main className="optimized-page pt-24 pb-12 px-gutter bg-background min-h-[70vh]">
       <section className="max-w-container-max mx-auto pt-8 md:pt-10 pb-12 md:pb-14">
                           <div className="relative overflow-hidden rounded-xl border border-outline-variant/35 bg-[#E0F7FA]/30 shadow-sm">
-                              <img src={assetPath("/asset/technology/cloude/1.png")} alt="Enterprise cloud infrastructure operations" className="absolute inset-0 h-full w-full object-cover scale-[1.02]" style={{ objectPosition: '68% center', filter: 'blur(4px) saturate(0.95) contrast(0.98)' }} />
+                              <img src={assetPath("/asset/technology/cloude/1-optimized.webp")} alt="Enterprise cloud infrastructure operations" className="absolute inset-0 h-full w-full object-cover scale-[1.02]" style={{ objectPosition: '68% center', filter: 'blur(4px) saturate(0.95) contrast(0.98)' }} fetchPriority="high" loading="eager" decoding="async" />
                               <div className="absolute inset-0 bg-gradient-to-r from-white/97 via-white/84 to-[#E0F7FA]/38"></div>
                               <div className="absolute inset-0 bg-[#E0F7FA]/20"></div>
                               <div className="relative min-h-[430px] md:min-h-[520px] flex items-start px-6 pt-8 pb-10 md:px-10 md:pt-12 lg:px-14 lg:pt-14">
@@ -75,7 +73,7 @@ export default function CloudInfrastructure() {
                                       <div className="border border-outline-variant/30 rounded-lg p-4 bg-white/85"><strong className="text-primary text-xl block">04</strong><span className="font-label-caps text-label-caps text-on-surface-variant uppercase">Optimize</span></div>
                                   </div>
                               </div>
-                              <img src={assetPath("/asset/technology/cloude/2.png")} alt="Cloud migration and infrastructure modernization planning" className="w-full h-60 md:h-72 object-cover rounded-xl border border-outline-variant/35 shadow-sm" />
+                              <img src={assetPath("/asset/technology/cloude/2-optimized.webp")} alt="Cloud migration and infrastructure modernization planning" className="w-full h-60 md:h-72 object-cover rounded-xl border border-outline-variant/35 shadow-sm" loading="lazy" decoding="async" />
                           </div>
                       </section>
       

@@ -1,10 +1,8 @@
-"use client";
-
 import Link from "next/link";
 
 export default function MicrosoftStrategicPartners() {
     return (
-        <main className="pt-24 pb-12 px-gutter bg-background min-h-[70vh]">
+        <main className="optimized-page pt-24 pb-12 px-gutter bg-background min-h-[70vh]">
             <section className="relative -mt-24 md:-mt-8 mb-10 md:mb-12 -mx-gutter overflow-hidden bg-white">
                 <div className="absolute inset-0 bg-[#E0F7FA]/30"></div>
                 <div className="hidden md:block absolute -right-24 top-10 h-72 w-72 rounded-full border border-primary-fixed-dim/60 bg-white/70"></div>

@@ -1,11 +1,9 @@
-"use client";
-
 import Link from "next/link";
 import { assetPath } from "@/lib/assetPath";
 
 export default function AISolutionsAutomation() {
   return (
-    <main className="pt-24 pb-12 px-gutter bg-background min-h-[70vh]">
+    <main className="optimized-page pt-24 pb-12 px-gutter bg-background min-h-[70vh]">
       <section className="max-w-container-max mx-auto pt-8 md:pt-10 pb-12 md:pb-16">
                           <div className="bg-[#E0F7FA]/30 border border-outline-variant/35 rounded-xl overflow-hidden">
                               <div className="grid grid-cols-1 xl:grid-cols-[0.98fr_1.02fr] gap-0 items-stretch">
@@ -20,7 +18,7 @@ export default function AISolutionsAutomation() {
                                       </div>
                                   </div>
                                   <div className="bg-white/65 border-t xl:border-t-0 xl:border-l border-outline-variant/35 p-5 md:p-7 flex flex-col justify-start pt-5 md:pt-7 xl:pt-9">
-                                      <img src={assetPath("/asset/technology/ai_solution_automation/1.png")} alt="AI automation command center" className="w-full h-52 md:h-64 object-cover rounded-lg border border-outline-variant/35 shadow-sm mb-4" />
+                                      <img src={assetPath("/asset/technology/ai_solution_automation/1-optimized.webp")} alt="AI automation command center" className="w-full h-52 md:h-64 object-cover rounded-lg border border-outline-variant/35 shadow-sm mb-4" fetchPriority="high" loading="eager" decoding="async" />
                                       <div className="grid grid-cols-3 gap-3">
                                           <div className="border border-outline-variant/30 rounded-lg p-4"><strong className="text-primary text-xl block">AI</strong><span className="font-label-caps text-label-caps text-on-surface-variant uppercase">Assist</span></div>
                                           <div className="border border-outline-variant/30 rounded-lg p-4 bg-[#E0F7FA]/30"><strong className="text-primary text-xl block">RPA</strong><span className="font-label-caps text-label-caps text-on-surface-variant uppercase">Execute</span></div>
@@ -76,7 +74,7 @@ export default function AISolutionsAutomation() {
                                       <div className="ai-mobile-workflow-card bg-white/85 border border-outline-variant/30 rounded-lg p-4"><span className="font-label-caps text-label-caps text-secondary uppercase">Review</span><p className="font-body-sm text-body-sm text-on-surface-variant mt-2">Human approval where judgment or risk matters.</p></div>
                                   </div>
                               </div>
-                              <img src={assetPath("/asset/technology/ai_solution_automation/2.png")} alt="Workflow automation and AI operations" className="w-full h-56 md:h-64 object-cover rounded-xl border border-outline-variant/35 shadow-sm" />
+                              <img src={assetPath("/asset/technology/ai_solution_automation/2-optimized.webp")} alt="Workflow automation and AI operations" className="w-full h-56 md:h-64 object-cover rounded-xl border border-outline-variant/35 shadow-sm" loading="lazy" decoding="async" />
                           </div>
                       </section>
                       <section className="max-w-container-max mx-auto py-12 md:py-14 lg:pl-5">

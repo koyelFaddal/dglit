@@ -1,13 +1,11 @@
-"use client";
-
 import Link from "next/link";
 import { assetPath } from "@/lib/assetPath";
 
 export default function HousingCommunities() {
   return (
-    <main className="pt-24 pb-12 px-gutter bg-background min-h-[70vh]">
+    <main className="optimized-page pt-24 pb-12 px-gutter bg-background min-h-[70vh]">
       <section className="relative -mt-8 mb-10 -mx-gutter min-h-[590px] md:min-h-[660px] flex items-end overflow-hidden bg-white">
-                          <img src={assetPath("/asset/industry/housing/1.png")} alt="Housing and communities transformation for connected residential services" className="absolute inset-0 w-full h-full object-cover blur-[1.5px] scale-[1.01]" />
+                          <img src={assetPath("/asset/industry/housing/1-optimized.webp")} alt="Housing and communities transformation for connected residential services" className="absolute inset-0 w-full h-full object-cover blur-[1.5px] scale-[1.01]" fetchPriority="high" loading="eager" decoding="async" />
                           <div className="absolute inset-0 bg-white/76"></div>
                           <div className="absolute inset-0 bg-gradient-to-r from-white/95 via-white/78 to-white/35"></div>
                           <div className="absolute inset-x-0 bottom-0 h-40 bg-gradient-to-t from-background via-background/70 to-transparent"></div>
@@ -62,7 +60,7 @@ export default function HousingCommunities() {
                       <section className="relative left-1/2 w-screen -translate-x-1/2 lg:left-auto lg:w-auto lg:translate-x-0 lg:mx-auto max-w-none lg:max-w-container-max py-10 md:py-14 bg-[#E0F7FA]/30 px-4 md:px-8 lg:rounded-xl">
                           <div className="grid grid-cols-1 lg:grid-cols-[1.02fr_0.98fr] gap-8 lg:gap-12 items-center">
                               <div className="relative overflow-hidden rounded-xl border border-outline-variant/35 bg-white shadow-sm">
-                                  <img src={assetPath("/asset/industry/housing/2.png")} alt="Community housing teams coordinating resident support and property operations" className="w-full h-[300px] md:h-[420px] object-cover" />
+                                  <img src={assetPath("/asset/industry/housing/2-optimized.webp")} alt="Community housing teams coordinating resident support and property operations" className="w-full h-[300px] md:h-[420px] object-cover" loading="lazy" decoding="async" />
                                   <div className="absolute left-4 right-4 bottom-4 grid grid-cols-1 sm:grid-cols-3 gap-2">
                                       <div className="bg-white/92 border border-white rounded-lg p-3"><span className="font-label-caps text-label-caps text-primary uppercase">Apply</span></div>
                                       <div className="bg-white/92 border border-white rounded-lg p-3"><span className="font-label-caps text-label-caps text-primary uppercase">Live</span></div>
@@ -119,7 +117,7 @@ export default function HousingCommunities() {
                                       <div className="border-l-4 border-primary pl-4"><span className="font-label-caps text-label-caps text-primary uppercase">Portfolio insight</span><p className="font-body-sm text-body-sm text-on-surface-variant mt-2">Vacancy, arrears, demand, utilization, and neighborhood-level performance.</p></div>
                                   </div>
                               </div>
-                              <img src={assetPath("/asset/industry/housing/3.png")} alt="Residential infrastructure and community development planning" className="w-full h-[320px] md:h-[430px] object-cover rounded-xl border border-outline-variant/35" />
+                              <img src={assetPath("/asset/industry/housing/3-optimized.webp")} alt="Residential infrastructure and community development planning" className="w-full h-[320px] md:h-[430px] object-cover rounded-xl border border-outline-variant/35" loading="lazy" decoding="async" />
                           </div>
                       </section>
                       <section className="-mx-gutter lg:mx-auto max-w-container-max py-10 md:py-14 px-4 lg:px-0">

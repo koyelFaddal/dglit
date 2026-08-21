@@ -196,13 +196,13 @@ export default function Careers() {
     }
 
     return (
-        <main className="pt-24 pb-12 px-gutter bg-background min-h-[70vh]">
+        <main className="optimized-page pt-24 pb-12 px-gutter bg-background min-h-[70vh]">
             <LegacyBehavior />
             <section className="relative -mt-24 md:-mt-8 min-h-[640px] lg:min-h-[700px] flex items-center pt-24 md:pt-20 pb-12 overflow-hidden bg-surface -mx-gutter">
                 <div className="absolute inset-0 z-0">
                     <img alt="Denova careers workspace"
                         className="hero-visual-balance w-full h-full object-cover object-center lg:object-right opacity-80 blur-[1px] scale-[1.01]"
-                        src={assetPath("/asset/company/career/1.png")} />
+                        src={assetPath("/asset/company/career/1-optimized.webp")} fetchPriority="high" loading="eager" decoding="async" />
                     <div className="absolute inset-0 bg-gradient-to-r from-background via-background/78 to-background/12"></div>
                     <div className="absolute inset-0 bg-gradient-to-t from-background/72 via-transparent to-background/20"></div>
                     <div className="absolute left-0 top-0 h-full w-2/3 bg-primary-fixed/25 blur-3xl opacity-70"></div>
@@ -326,7 +326,7 @@ export default function Careers() {
             <section className="max-w-container-max mx-auto mb-12">
                 <div className="grid lg:grid-cols-2 gap-10 lg:gap-16 items-center">
                     <div className="rounded-[2rem] md:rounded-[3rem] overflow-hidden shadow-2xl border-8 border-white">
-                        <img alt="Denova software workplace" className="w-full h-full object-cover" src={assetPath("/asset/company/career/2.png")} />
+                        <img alt="Denova software workplace" className="w-full h-full object-cover" src={assetPath("/asset/company/career/2-optimized.webp")} loading="lazy" decoding="async" />
                     </div>
                     <div className="space-y-8">
                         <h2 className="font-h2 text-3xl lg:text-5xl text-slate-900 font-bold leading-tight">A work environment built for focused delivery.</h2>
@@ -358,7 +358,7 @@ export default function Careers() {
                         </div>
                     </div>
                     <div className="lg:col-span-5 rounded-3xl overflow-hidden shadow-xl">
-                        <img alt="Denova team collaboration" className="w-full h-full object-cover" src={assetPath("/asset/company/career/3.png")} />
+                        <img alt="Denova team collaboration" className="w-full h-full object-cover" src={assetPath("/asset/company/career/3-optimized.webp")} loading="lazy" decoding="async" />
                     </div>
                 </div>
             </section>
@@ -428,7 +428,7 @@ export default function Careers() {
                         <p className="text-slate-600 leading-relaxed">Denova teams turn requirements into usable software through discovery, design, implementation, testing, and continuous improvement. The goal is simple: build technology that clients can trust.</p>
                     </div>
                     <div className="lg:col-span-7 rounded-[2rem] md:rounded-[3rem] overflow-hidden shadow-2xl">
-                        <img alt="Denova software delivery team" className="w-full h-full object-cover" src={assetPath("/asset/company/career/4.png")} />
+                        <img alt="Denova software delivery team" className="w-full h-full object-cover" src={assetPath("/asset/company/career/4-optimized.webp")} loading="lazy" decoding="async" />
                     </div>
                 </div>
             </section>
@@ -650,7 +650,7 @@ export default function Careers() {
                     <div className="p-6 md:p-8 lg:p-16">
                         <div className="flex flex-col md:flex-row gap-6 md:gap-8 items-start mb-10 md:mb-12 border-b border-slate-100 pb-8 md:pb-12 pr-12 md:pr-0">
                             <div className="w-24 h-24 lg:w-32 lg:h-32 rounded-3xl overflow-hidden shadow-xl border-4 border-white shrink-0" id="modal-job-image">
-                                <img alt="Job" className="w-full h-full object-cover" src={assetPath("/asset/company/career/1.png")} />
+                                <img alt="Job" className="w-full h-full object-cover" src={assetPath("/asset/company/career/1-optimized.webp")} loading="lazy" decoding="async" />
                             </div>
                             <div className="space-y-2">
                                 <span className="inline-block px-3 py-1 bg-primary/10 text-primary text-[10px] font-bold uppercase rounded-full tracking-widest" id="modal-job-tag"></span>

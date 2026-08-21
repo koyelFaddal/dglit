@@ -1,14 +1,12 @@
-"use client";
-
 import Link from "next/link";
 import { assetPath } from "@/lib/assetPath";
 
 export default function ManagedServices() {
   return (
-    <main className="pt-24 pb-12 px-gutter bg-background min-h-[70vh]">
+    <main className="optimized-page pt-24 pb-12 px-gutter bg-background min-h-[70vh]">
       <section className="max-w-container-max mx-auto pt-8 md:pt-10 pb-12 md:pb-14">
                           <div className="relative overflow-hidden rounded-xl border border-outline-variant/35 bg-white shadow-sm">
-                              <img src={assetPath("/asset/technology/service/1.png")} alt="Managed services operations center" className="absolute inset-0 h-full w-full object-cover scale-[1.02] opacity-35 md:opacity-100" style={{ objectPosition: '72% center', filter: 'blur(5px) saturate(0.92) contrast(0.95)' }} />
+                              <img src={assetPath("/asset/technology/service/1-optimized.webp")} alt="Managed services operations center" className="absolute inset-0 h-full w-full object-cover scale-[1.02] opacity-35 md:opacity-100" style={{ objectPosition: '72% center', filter: 'blur(5px) saturate(0.92) contrast(0.95)' }} fetchPriority="high" loading="eager" decoding="async" />
                               <div className="absolute inset-0 bg-gradient-to-b md:bg-gradient-to-r from-white via-white/95 to-[#E0F7FA]/85 md:from-white/97 md:via-white/86 md:to-[#E0F7FA]/40"></div>
                               <div className="absolute inset-0 bg-white/70 md:bg-[#E0F7FA]/18"></div>
                               <div className="relative min-h-[380px] sm:min-h-[430px] md:min-h-[520px] flex items-center px-4 py-7 sm:px-6 sm:py-8 md:px-10 md:py-12 lg:px-14">
@@ -93,7 +91,7 @@ export default function ManagedServices() {
       
                       <section className="max-w-container-max mx-auto py-12 md:py-14">
                           <div className="grid grid-cols-1 lg:grid-cols-[0.95fr_1.05fr] gap-7 items-center">
-                              <img src={assetPath("/asset/technology/service/2.png")} alt="Managed services monitoring dashboard" className="w-full h-60 md:h-72 object-cover rounded-xl border border-outline-variant/35 shadow-sm" />
+                              <img src={assetPath("/asset/technology/service/2-optimized.webp")} alt="Managed services monitoring dashboard" className="w-full h-60 md:h-72 object-cover rounded-xl border border-outline-variant/35 shadow-sm" loading="lazy" decoding="async" />
                               <div className="bg-white border border-outline-variant/35 rounded-xl p-6 md:p-7 shadow-sm">
                                   <span className="font-label-caps text-label-caps text-secondary uppercase tracking-widest block mb-4">Monitoring Dashboard Showcase</span>
                                   <h2 className="font-headline-lg text-headline-lg text-on-surface mb-4">One operational view for infrastructure, cloud, and applications.</h2>
@@ -172,7 +170,7 @@ export default function ManagedServices() {
                                   <p className="font-body-md text-body-md text-on-surface-variant mb-5">A distributed operations team consolidated monitoring, incident handling, service reporting, and improvement reviews into a single managed-service rhythm.</p>
                                   <div className="grid grid-cols-3 gap-3"><div className="bg-white/85 border border-outline-variant/30 rounded-lg p-4"><strong className="text-primary text-2xl block">32%</strong><span className="font-label-caps text-label-caps text-secondary uppercase">Fewer repeats</span></div><div className="bg-white/85 border border-outline-variant/30 rounded-lg p-4"><strong className="text-primary text-2xl block">18%</strong><span className="font-label-caps text-label-caps text-secondary uppercase">Faster triage</span></div><div className="bg-white/85 border border-outline-variant/30 rounded-lg p-4"><strong className="text-primary text-2xl block">4x</strong><span className="font-label-caps text-label-caps text-secondary uppercase">Reporting clarity</span></div></div>
                               </div>
-                              <img src={assetPath("/asset/technology/service/3.png")} alt="Managed services impact review" className="w-full h-60 md:h-72 object-cover rounded-xl border border-outline-variant/35 shadow-sm" />
+                              <img src={assetPath("/asset/technology/service/3-optimized.webp")} alt="Managed services impact review" className="w-full h-60 md:h-72 object-cover rounded-xl border border-outline-variant/35 shadow-sm" loading="lazy" decoding="async" />
                           </div>
                       </section>
       

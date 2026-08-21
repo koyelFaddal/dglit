@@ -1,14 +1,12 @@
-"use client";
-
 import Link from "next/link";
 import { assetPath } from "@/lib/assetPath";
 
 export default function DataAnalytics() {
   return (
-    <main className="pt-24 pb-12 px-gutter bg-background min-h-[70vh]">
+    <main className="optimized-page pt-24 pb-12 px-gutter bg-background min-h-[70vh]">
       <section className="max-w-container-max mx-auto pt-8 md:pt-10 pb-12 md:pb-14">
                           <div className="relative overflow-hidden rounded-xl border border-outline-variant/35 bg-[#E0F7FA]/30 shadow-sm">
-                              <img src={assetPath("/asset/technology/data_analytics/3.png")} alt="Enterprise analytics strategy workspace" className="absolute inset-0 h-full w-full object-cover" style={{ objectPosition: '72% center' }} />
+                              <img src={assetPath("/asset/technology/data_analytics/3-optimized.webp")} alt="Enterprise analytics strategy workspace" className="absolute inset-0 h-full w-full object-cover" style={{ objectPosition: '72% center' }} fetchPriority="high" loading="eager" decoding="async" />
                               <div className="absolute inset-0 bg-gradient-to-r from-white via-white/94 to-white/38"></div>
                               <div className="absolute inset-0 bg-[#E0F7FA]/25"></div>
                               <div className="relative min-h-[430px] md:min-h-[520px] flex items-start px-6 pt-8 pb-10 md:px-10 md:pt-12 lg:px-14 lg:pt-14">
@@ -51,7 +49,7 @@ export default function DataAnalytics() {
                                       <div className="border border-outline-variant/30 rounded-lg p-4 bg-[#E0F7FA]/30"><span className="font-label-caps text-label-caps text-secondary uppercase">Operational dashboards</span><p className="font-body-sm text-body-sm text-on-surface-variant mt-2">Role-based views for service, finance, workforce, and delivery teams.</p></div>
                                   </div>
                               </div>
-                              <img src={assetPath("/asset/technology/data_analytics/2.png")} alt="Business intelligence dashboard review" className="w-full h-56 md:h-64 lg:h-72 object-cover rounded-xl border border-outline-variant/35 shadow-sm" />
+                              <img src={assetPath("/asset/technology/data_analytics/2-optimized.webp")} alt="Business intelligence dashboard review" className="w-full h-56 md:h-64 lg:h-72 object-cover rounded-xl border border-outline-variant/35 shadow-sm" loading="lazy" decoding="async" />
                           </div>
                       </section>
       
@@ -75,7 +73,7 @@ export default function DataAnalytics() {
       
                       <section className="max-w-container-max mx-auto py-12 md:py-14">
                           <div className="grid grid-cols-1 lg:grid-cols-[0.92fr_1.08fr] gap-7 items-stretch">
-                              <img src={assetPath("/asset/technology/data_analytics/1.png")} alt="Data engineering and analytics platform operations" className="w-full h-64 md:h-72 lg:h-full min-h-[300px] object-cover rounded-xl border border-outline-variant/35 shadow-sm" />
+                              <img src={assetPath("/asset/technology/data_analytics/1-optimized.webp")} alt="Data engineering and analytics platform operations" className="w-full h-64 md:h-72 lg:h-full min-h-[300px] object-cover rounded-xl border border-outline-variant/35 shadow-sm" loading="lazy" decoding="async" />
                               <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                                   <div className="sm:col-span-2 bg-white border border-outline-variant/35 rounded-xl p-6 md:p-7 shadow-sm"><span className="font-label-caps text-label-caps text-secondary uppercase tracking-widest block mb-4">Analytics Platform Services</span><h2 className="font-headline-lg text-headline-lg text-on-surface mb-4">Build the data products teams actually reuse.</h2><p className="font-body-md text-body-md text-on-surface-variant">Our delivery approach covers source integration, transformation logic, semantic layers, warehouse design, visualization, and support models.</p></div>
                                   <div className="bg-[#E0F7FA]/30 border border-outline-variant/35 rounded-lg p-5"><h3 className="font-headline-sm text-headline-sm mb-2">Data engineering</h3><p className="font-body-sm text-body-sm text-on-surface-variant">Reliable ingestion, transformation, orchestration, and exception handling.</p></div>

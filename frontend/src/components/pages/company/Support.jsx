@@ -101,7 +101,7 @@ export default function Support() {
     const fieldError = (name) => errors?.[name]?.[0];
 
     return (
-        <main className="pt-24 pb-12 px-gutter bg-background min-h-[70vh]">
+        <main className="optimized-page pt-24 pb-12 px-gutter bg-background min-h-[70vh]">
             <section className="max-w-container-max mx-auto py-8 md:py-10">
                 <div className="grid grid-cols-1 xl:grid-cols-[0.78fr_1.22fr] gap-6 items-stretch">
                     <div className="bg-[#E0F7FA]/30 border border-outline-variant/35 rounded-2xl p-7 md:p-8 architectural-shadow">

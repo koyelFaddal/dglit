@@ -1,10 +1,8 @@
-"use client";
-
 import Link from "next/link";
 
 export default function OracleStrategicPartners() {
     return (
-        <main className="pt-24 pb-12 px-gutter bg-background min-h-[70vh]">
+        <main className="optimized-page pt-24 pb-12 px-gutter bg-background min-h-[70vh]">
             <section className="relative -mt-24 md:-mt-8 mb-3 md:mb-4 -mx-gutter overflow-hidden bg-white">
                 <div className="absolute inset-0 bg-[#E0F7FA]/30"></div>
                 <div className="absolute inset-x-0 top-0 h-px bg-primary-fixed-dim/70"></div>

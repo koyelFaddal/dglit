@@ -1,13 +1,11 @@
-"use client";
-
 import Link from "next/link";
 import { assetPath } from "@/lib/assetPath";
 
 export default function TransportInfrastructure() {
   return (
-    <main className="pt-24 pb-12 px-gutter bg-background min-h-[70vh]">
+    <main className="optimized-page pt-24 pb-12 px-gutter bg-background min-h-[70vh]">
       <section className="relative -mt-24 md:-mt-8 mb-10 md:mb-12 -mx-gutter min-h-[560px] md:min-h-[540px] lg:min-h-[520px] flex items-start overflow-hidden bg-white">
-                          <img src={assetPath("/asset/industry/transport/1.png")} alt="Transport and infrastructure network operations" className="absolute inset-0 w-full h-full object-cover blur-[3px] md:blur-[1.25px] scale-[1.01]" />
+                          <img src={assetPath("/asset/industry/transport/1-optimized.webp")} alt="Transport and infrastructure network operations" className="absolute inset-0 w-full h-full object-cover blur-[3px] md:blur-[1.25px] scale-[1.01]" fetchPriority="high" loading="eager" decoding="async" />
                           <div className="absolute inset-0 bg-white/78"></div>
                           <div className="absolute inset-0 bg-[#E0F7FA]/30"></div>
                           <div className="absolute left-0 top-0 h-full w-3/5 bg-primary-fixed/20 blur-3xl opacity-70"></div>
@@ -39,7 +37,7 @@ export default function TransportInfrastructure() {
                                       <div className="border-l-4 border-secondary pl-4"><span className="font-label-caps text-label-caps text-secondary uppercase">Infrastructure programs</span><p className="font-body-sm text-body-sm text-on-surface-variant mt-2">Planning, delivery support, asset data, and governance for critical works.</p></div>
                                   </div>
                               </div>
-                              <img src={assetPath("/asset/industry/transport/2.png")} alt="Transport infrastructure planning and mobility operations" className="w-full h-[300px] md:h-[390px] object-cover rounded-xl border border-outline-variant/35 shadow-sm" />
+                              <img src={assetPath("/asset/industry/transport/2-optimized.webp")} alt="Transport infrastructure planning and mobility operations" className="w-full h-[300px] md:h-[390px] object-cover rounded-xl border border-outline-variant/35 shadow-sm" loading="lazy" decoding="async" />
                           </div>
                       </section>
                       <section className="max-w-container-max mx-auto py-10 md:py-12 border-y border-outline-variant/30">
@@ -95,7 +93,7 @@ export default function TransportInfrastructure() {
                       </section>
                       <section className="max-w-container-max mx-auto py-10 md:py-14">
                           <div className="grid grid-cols-1 lg:grid-cols-[0.92fr_1.08fr] gap-8 lg:gap-12 items-center">
-                              <img src={assetPath("/asset/industry/transport/3.png")} alt="Infrastructure asset management and transport project delivery" className="w-full h-[300px] md:h-[400px] object-cover rounded-xl border border-outline-variant/35 shadow-sm" />
+                              <img src={assetPath("/asset/industry/transport/3-optimized.webp")} alt="Infrastructure asset management and transport project delivery" className="w-full h-[300px] md:h-[400px] object-cover rounded-xl border border-outline-variant/35 shadow-sm" loading="lazy" decoding="async" />
                               <div>
                                   <span className="font-label-caps text-label-caps text-secondary uppercase tracking-widest block mb-4">Infrastructure Planning &amp; Asset Management</span>
                                   <h2 className="font-headline-lg text-headline-lg text-on-surface mb-4">Plan maintenance and investment with better asset evidence.</h2>

@@ -1,14 +1,12 @@
-"use client";
-
 import Link from "next/link";
 import { assetPath } from "@/lib/assetPath";
 
 export default function EnterpriseCommercial() {
   return (
-    <main className="pt-24 pb-12 px-gutter bg-background min-h-[70vh]">
+    <main className="optimized-page pt-24 pb-12 px-gutter bg-background min-h-[70vh]">
       <section className="relative -mt-24 md:-mt-8 min-h-[640px] lg:min-h-[680px] flex items-center pt-24 md:pt-20 pb-12 overflow-hidden bg-surface -mx-gutter">
                           <div className="absolute inset-0 z-0">
-                              <img alt="Enterprise and commercial operations modernization" className="hero-visual-balance w-full h-full object-cover object-center lg:object-right opacity-80 blur-[2px] md:blur-[1px] scale-[1.01]" src={assetPath("/asset/industry/enterprise/1.png")} />
+                              <img alt="Enterprise and commercial operations modernization" className="hero-visual-balance w-full h-full object-cover object-center lg:object-right opacity-80 blur-[2px] md:blur-[1px] scale-[1.01]" src={assetPath("/asset/industry/enterprise/1-optimized.webp")} fetchPriority="high" loading="eager" decoding="async" />
                               <div className="absolute inset-0 bg-gradient-to-r from-background via-background/78 to-background/15"></div>
                               <div className="absolute inset-0 bg-gradient-to-t from-background/72 via-transparent to-background/20"></div>
                               <div className="absolute left-0 top-0 h-full w-2/3 bg-primary-fixed/25 blur-3xl opacity-70"></div>
@@ -66,7 +64,7 @@ export default function EnterpriseCommercial() {
                                   <p className="font-body-md text-body-md text-on-surface-variant">The opportunity is not another layer of tools. It is a cleaner operating model that reduces handoffs, makes ownership visible, and gives leaders earlier signals when service or growth is under pressure.</p>
                               </div>
                               <div className="grid grid-cols-1 lg:grid-cols-[0.8fr_1.2fr] gap-5 lg:gap-7 items-stretch">
-                                  <img src={assetPath("/asset/industry/enterprise/2.png")} alt="Enterprise team reviewing commercial operations" className="w-full h-[260px] lg:h-full min-h-[320px] object-cover rounded-xl border border-outline-variant/35 shadow-sm" />
+                                  <img src={assetPath("/asset/industry/enterprise/2-optimized.webp")} alt="Enterprise team reviewing commercial operations" className="w-full h-[260px] lg:h-full min-h-[320px] object-cover rounded-xl border border-outline-variant/35 shadow-sm" loading="lazy" decoding="async" />
                                   <div className="bg-white border border-outline-variant/35 rounded-xl overflow-hidden">
                                       <div className="p-5 border-b border-outline-variant/25">
                                           <div className="flex items-start gap-4">
@@ -164,7 +162,7 @@ export default function EnterpriseCommercial() {
                       <section className="max-w-container-max mx-auto py-10 md:py-14">
                           <div className="grid grid-cols-1 lg:grid-cols-[1.05fr_0.95fr] gap-8 lg:gap-12 items-center">
                               <div className="relative min-h-[300px] md:min-h-[420px] rounded-xl overflow-hidden border border-outline-variant/35">
-                                  <img src={assetPath("/asset/industry/enterprise/3.png")} alt="Enterprise collaboration and productivity planning" className="absolute inset-0 w-full h-full object-cover" />
+                                  <img src={assetPath("/asset/industry/enterprise/3-optimized.webp")} alt="Enterprise collaboration and productivity planning" className="absolute inset-0 w-full h-full object-cover" loading="lazy" decoding="async" />
                                   <div className="absolute inset-0 bg-black/42"></div>
                                   <div className="absolute left-4 right-4 bottom-4 md:left-0 md:right-0 md:bottom-0 rounded-lg md:rounded-none bg-black/35 border border-white/25 p-4 md:p-8">
                                       <span className="font-label-caps text-label-caps text-white uppercase tracking-widest block mb-3">Workforce &amp; Collaboration Enablement</span>

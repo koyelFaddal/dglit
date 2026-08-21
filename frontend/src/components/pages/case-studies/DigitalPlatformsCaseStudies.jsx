@@ -1,14 +1,12 @@
-"use client";
-
 import Link from "next/link";
 import { assetPath } from "@/lib/assetPath";
 
 export default function DigitalPlatformsCaseStudies() {
     return (
-        <main className="pt-24 pb-12 px-gutter bg-background min-h-[70vh]">
+        <main className="optimized-page pt-24 pb-12 px-gutter bg-background min-h-[70vh]">
             <section className="relative -mt-24 min-h-[680px] lg:min-h-[760px] flex items-center pt-20 overflow-hidden bg-surface -mx-gutter">
                 <div className="absolute inset-0 z-0">
-                    <img alt="Digital platform transformation case study" className="hero-visual-balance w-full h-full object-cover object-center lg:object-right opacity-80" src={assetPath("/asset/case_studies/digital_platform/1.png")} />
+                    <img alt="Digital platform transformation case study" className="hero-visual-balance w-full h-full object-cover object-center lg:object-right opacity-80" src={assetPath("/asset/case_studies/digital_platform/1-optimized.webp")} fetchPriority="high" loading="eager" decoding="async" />
                     <div className="absolute inset-0 bg-gradient-to-r from-background via-background/75 to-background/10"></div>
                     <div className="absolute inset-0 bg-gradient-to-t from-background/70 via-transparent to-background/20"></div>
                     <div className="absolute left-0 top-0 h-full w-2/3 bg-primary-fixed/25 blur-3xl opacity-70"></div>
@@ -49,7 +47,7 @@ export default function DigitalPlatformsCaseStudies() {
             <section className="-mx-gutter md:mx-auto max-w-container-max py-10 md:py-14 px-gutter md:px-8 bg-[#E0F7FA]/30 rounded-none md:rounded-lg">
                 <div className="grid grid-cols-1 lg:grid-cols-[0.62fr_0.38fr] gap-8 lg:gap-12 items-center">
                     <div className="relative min-h-[430px] overflow-hidden rounded-lg">
-                        <img src={assetPath("/asset/case_studies/digital_platform/2.png")} alt="Digital platform product team reviewing service journeys" className="absolute inset-0 w-full h-full object-cover opacity-80" />
+                        <img src={assetPath("/asset/case_studies/digital_platform/2-optimized.webp")} alt="Digital platform product team reviewing service journeys" className="absolute inset-0 w-full h-full object-cover opacity-80" loading="lazy" decoding="async" />
                         <div className="absolute inset-0 bg-gradient-to-t from-white via-white/60 to-white/10"></div>
                         <div className="absolute left-0 bottom-0 right-0 p-6 md:p-8">
                             <span className="font-label-caps text-label-caps text-secondary uppercase tracking-widest block mb-3">Featured Platform Transformation Story</span>
@@ -131,7 +129,7 @@ export default function DigitalPlatformsCaseStudies() {
             </section>
             <section className="-mx-gutter md:mx-auto max-w-container-max py-10 md:py-14 px-gutter md:px-8 bg-white rounded-none md:rounded-lg border-y md:border border-outline-variant/30">
                 <div className="grid grid-cols-1 lg:grid-cols-[0.8fr_1fr] gap-8 lg:gap-12 items-center">
-                    <img src={assetPath("/asset/case_studies/digital_platform/3.png")} alt="Digital platform engagement and service evidence dashboard" className="w-full h-[320px] md:h-[470px] object-cover rounded-lg" />
+                    <img src={assetPath("/asset/case_studies/digital_platform/3-optimized.webp")} alt="Digital platform engagement and service evidence dashboard" className="w-full h-[320px] md:h-[470px] object-cover rounded-lg" loading="lazy" decoding="async" />
                     <div>
                         <span className="font-label-caps text-label-caps text-secondary uppercase tracking-widest block mb-4">Adoption Observatory</span>
                         <h2 className="font-headline-lg text-headline-lg text-on-surface mb-4">Adoption was read as behavior across the whole service loop.</h2>

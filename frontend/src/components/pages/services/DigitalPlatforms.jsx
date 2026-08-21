@@ -1,14 +1,12 @@
-"use client";
-
 import Link from "next/link";
 import { assetPath } from "@/lib/assetPath";
 
 export default function DigitalPlatforms() {
   return (
-    <main className="pt-24 pb-12 px-gutter bg-background min-h-[70vh]">
+    <main className="optimized-page pt-24 pb-12 px-gutter bg-background min-h-[70vh]">
       <section className="max-w-container-max mx-auto pt-8 md:pt-10 pb-12 md:pb-14">
                           <div className="relative overflow-hidden rounded-xl border border-outline-variant/35 bg-[#E0F7FA]/30 shadow-sm">
-                              <img src={assetPath("/asset/technology/digital_platform/1.png")} alt="Digital platform experience dashboard" className="absolute inset-0 h-full w-full object-cover" />
+                              <img src={assetPath("/asset/technology/digital_platform/1-optimized.webp")} alt="Digital platform experience dashboard" className="absolute inset-0 h-full w-full object-cover" fetchPriority="high" loading="eager" decoding="async" />
                               <div className="absolute inset-0 bg-gradient-to-r from-white/95 via-white/78 to-white/18"></div>
                               <div className="absolute inset-0 bg-[#E0F7FA]/20"></div>
                               <div className="relative min-h-[430px] md:min-h-[520px] flex items-start px-6 pt-8 pb-10 md:px-10 md:pt-12 lg:px-14 lg:pt-14">
@@ -62,7 +60,7 @@ export default function DigitalPlatforms() {
                                       <div className="border border-outline-variant/30 rounded-lg p-4"><span className="font-label-caps text-label-caps text-secondary uppercase">Accessibility</span></div>
                                   </div>
                               </div>
-                              <img src={assetPath("/asset/technology/digital_platform/2.png")} alt="Enterprise web platform design" className="w-full h-56 md:h-64 object-cover rounded-xl border border-outline-variant/35 shadow-sm" />
+                              <img src={assetPath("/asset/technology/digital_platform/2-optimized.webp")} alt="Enterprise web platform design" className="w-full h-56 md:h-64 object-cover rounded-xl border border-outline-variant/35 shadow-sm" loading="lazy" decoding="async" />
                           </div>
                       </section>
                       <section className="max-w-container-max mx-auto py-12 md:py-14 bg-[#E0F7FA]/30 rounded-xl px-6 md:px-8">
@@ -101,7 +99,7 @@ export default function DigitalPlatforms() {
                       </section>
                       <section className="max-w-container-max mx-auto py-12 md:py-14 border-y border-outline-variant/30">
                           <div className="grid grid-cols-1 lg:grid-cols-[1.05fr_0.95fr] gap-7 items-center">
-                              <img src={assetPath("/asset/technology/digital_platform/3.png")} alt="Content management platform workflow" className="w-full h-56 md:h-64 object-cover rounded-xl border border-outline-variant/35 shadow-sm" />
+                              <img src={assetPath("/asset/technology/digital_platform/3-optimized.webp")} alt="Content management platform workflow" className="w-full h-56 md:h-64 object-cover rounded-xl border border-outline-variant/35 shadow-sm" loading="lazy" decoding="async" />
                               <div>
                                   <span className="font-label-caps text-label-caps text-secondary uppercase tracking-widest block mb-4">Content Management Systems</span>
                                   <h2 className="font-headline-lg text-headline-lg text-on-surface mb-4">Content operations with governance, speed, and scale.</h2>

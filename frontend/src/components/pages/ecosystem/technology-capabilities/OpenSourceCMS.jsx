@@ -1,13 +1,11 @@
-"use client";
-
 import Link from "next/link";
 import { assetPath } from "@/lib/assetPath";
 
 export default function OpenSourceCMS() {
     return (
-        <main className="pt-24 pb-12 px-gutter bg-background min-h-[70vh]">
+        <main className="optimized-page pt-24 pb-12 px-gutter bg-background min-h-[70vh]">
             <section className="relative -mt-24 md:-mt-8 mb-3 md:mb-4 -mx-gutter min-h-[640px] md:min-h-[580px] flex items-center overflow-hidden bg-white">
-                <img src={assetPath("/asset/ecosystem/technology/open_source/1.png")} alt="Open source and CMS platform architecture" className="absolute inset-0 h-full w-full object-cover object-center opacity-30 blur-[1px] scale-[1.01] hero-visual-balance" />
+                <img src={assetPath("/asset/ecosystem/technology/open_source/1-optimized.webp")} alt="Open source and CMS platform architecture" className="absolute inset-0 h-full w-full object-cover object-center opacity-30 blur-[1px] scale-[1.01] hero-visual-balance" fetchPriority="high" loading="eager" decoding="async" />
                 <div className="absolute inset-0 bg-white/74"></div>
                 <div className="absolute inset-0 bg-[#E0F7FA]/24"></div>
                 <div className="absolute left-0 top-0 h-full w-2/3 bg-primary-fixed/25 blur-3xl opacity-70"></div>
@@ -36,7 +34,7 @@ export default function OpenSourceCMS() {
             <section className="max-w-container-max mx-auto py-10 md:py-14">
                 <div className="grid grid-cols-1 lg:grid-cols-[1.02fr_0.98fr] gap-8 lg:gap-12 items-center">
                     <div className="relative overflow-hidden rounded-xl border border-outline-variant/35 bg-white shadow-sm">
-                        <img src={assetPath("/asset/ecosystem/technology/open_source/2.png")} alt="CMS editorial workflow and open platform operations" className="w-full h-[300px] md:h-[420px] object-cover" />
+                        <img src={assetPath("/asset/ecosystem/technology/open_source/2-optimized.webp")} alt="CMS editorial workflow and open platform operations" className="w-full h-[300px] md:h-[420px] object-cover" loading="lazy" decoding="async" />
                     </div>
                     <div>
                         <span className="font-label-caps text-label-caps text-secondary uppercase tracking-widest block mb-4">CMS Modernization</span>
@@ -62,7 +60,7 @@ export default function OpenSourceCMS() {
                             </div>
                         </div>
                     </div>
-                    <img src={assetPath("/asset/ecosystem/technology/open_source/3.png")} alt="Open source platform governance and delivery assurance" className="w-full h-[300px] md:h-[410px] object-cover rounded-xl border border-outline-variant/35 shadow-sm" />
+                    <img src={assetPath("/asset/ecosystem/technology/open_source/3-optimized.webp")} alt="Open source platform governance and delivery assurance" className="w-full h-[300px] md:h-[410px] object-cover rounded-xl border border-outline-variant/35 shadow-sm" loading="lazy" decoding="async" />
                 </div>
             </section>
             <section className="max-w-container-max mx-auto py-10 md:py-14 border-y border-outline-variant/30">

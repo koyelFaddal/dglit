@@ -1,11 +1,9 @@
-"use client";
-
 import Link from "next/link";
 import { assetPath } from "@/lib/assetPath";
 
 export default function AboutDGL() {
     return (
-        <main className="pt-24 pb-12 px-gutter bg-background min-h-[70vh]">
+        <main className="optimized-page pt-24 pb-12 px-gutter bg-background min-h-[70vh]">
             <section className="max-w-container-max mx-auto py-8 md:py-10">
                 <div className="bg-white border border-outline-variant/40 rounded-2xl architectural-shadow overflow-hidden">
                     <div className="grid grid-cols-1 lg:grid-cols-[1.08fr_0.92fr] gap-0 items-center">
@@ -24,7 +22,7 @@ export default function AboutDGL() {
                             </div>
                         </div>
                         <div className="bg-[#E0F7FA]/30 p-5 md:p-7">
-                            <img src={assetPath("/asset/company/about-digital/2.png")} alt="DGL digital consulting leadership session" className="w-full aspect-[16/9] object-cover object-center rounded-xl border border-outline-variant/35 shadow-sm" />
+                            <img src={assetPath("/asset/company/about-digital/2-optimized.webp")} alt="DGL digital consulting leadership session" className="w-full aspect-[16/9] object-cover object-center rounded-xl border border-outline-variant/35 shadow-sm" fetchPriority="high" loading="eager" decoding="async" />
                             <div className="grid grid-cols-3 gap-3 mt-3">
                                 <div className="bg-white border border-outline-variant/35 rounded-lg p-3"><strong className="block text-2xl text-primary">22+</strong><span className="font-label-caps text-label-caps text-on-surface-variant uppercase">Years</span></div>
                                 <div className="bg-white border border-outline-variant/35 rounded-lg p-3"><strong className="block text-2xl text-primary">500+</strong><span className="font-label-caps text-label-caps text-on-surface-variant uppercase">Projects</span></div>
@@ -37,7 +35,7 @@ export default function AboutDGL() {
             <section className="max-w-container-max mx-auto py-8 md:py-10 border-y border-outline-variant/30">
                 <div className="grid grid-cols-1 lg:grid-cols-[0.72fr_1.28fr] gap-6 items-stretch">
                     <div className="bg-[#E0F7FA]/30 border border-outline-variant/35 rounded-2xl p-6">
-                        <img src={assetPath("/asset/company/about-digital/1.png")} alt="DGL digital identity emblem" className="w-20 h-20 object-contain mb-5" />
+                        <img src={assetPath("/asset/company/about-digital/1-optimized.webp")} alt="DGL digital identity emblem" className="w-20 h-20 object-contain mb-5" loading="lazy" decoding="async" />
                         <span className="font-label-caps text-label-caps text-primary uppercase tracking-widest block mb-4">About</span>
                         <h2 className="font-headline-md text-headline-md text-[#0A1F44] mb-3">A consulting firm designed for joined-up transformation.</h2>
                         <p className="font-body-md text-body-md text-on-surface-variant">DGL brings business consulting, technology delivery, cyber assurance, managed services, and change enablement into one practical delivery model.</p>
@@ -90,7 +88,7 @@ export default function AboutDGL() {
                     </div>
                     <div className="grid grid-cols-1 md:grid-cols-[0.88fr_1.12fr] gap-5">
                         <div className="bg-[#E0F7FA]/30 border border-outline-variant/35 rounded-2xl p-5">
-                            <img src={assetPath("/asset/company/about-digital/3.png")} alt="DGL international delivery footprint" className="w-full aspect-[4/3] object-cover object-center rounded-xl border border-outline-variant/35 mb-4" />
+                            <img src={assetPath("/asset/company/about-digital/3-optimized.webp")} alt="DGL international delivery footprint" className="w-full aspect-[4/3] object-cover object-center rounded-xl border border-outline-variant/35 mb-4" loading="lazy" decoding="async" />
                             <div className="grid grid-cols-1 gap-3">
                                 <div className="bg-white border border-outline-variant/35 rounded-xl p-4"><span className="font-label-caps text-label-caps text-primary uppercase">Regional continuity</span><p className="font-body-sm text-body-sm text-on-surface-variant mt-2">Consistent delivery standards with local context for regulation, culture, and service expectations.</p></div>
                                 <div className="bg-white border border-outline-variant/35 rounded-xl p-4"><span className="font-label-caps text-label-caps text-primary uppercase">Cross-border teams</span><p className="font-body-sm text-body-sm text-on-surface-variant mt-2">Specialists coordinate across advisory, engineering, support, and assurance workstreams.</p></div>
@@ -141,7 +139,7 @@ export default function AboutDGL() {
                         </div>
                         <div className="grid grid-cols-1 md:grid-cols-4 gap-4">
                             <div className="md:col-span-2 bg-[#E0F7FA]/30 border border-outline-variant/35 rounded-2xl p-5">
-                                <img src={assetPath("/asset/company/about-digital/4.png")} alt="DGL partnership ecosystem" className="w-full aspect-[16/8] object-cover object-center rounded-xl border border-outline-variant/35 mb-4" />
+                                <img src={assetPath("/asset/company/about-digital/4-optimized.webp")} alt="DGL partnership ecosystem" className="w-full aspect-[16/8] object-cover object-center rounded-xl border border-outline-variant/35 mb-4" loading="lazy" decoding="async" />
                                 <div className="bg-white border border-outline-variant/35 rounded-xl p-4"><span className="font-label-caps text-label-caps text-primary uppercase">Joint innovation</span><p className="font-body-sm text-body-sm text-on-surface-variant mt-2">Alliance activity focuses on practical pilots, scalable architectures, reusable accelerators, and measurable service value.</p></div>
                             </div>
                             <div className="bg-white border border-outline-variant/35 rounded-2xl p-5"><span className="material-symbols-outlined text-primary text-3xl mb-4">cloud</span><h3 className="font-headline-sm text-headline-sm mb-2">Technology alliances</h3><p className="font-body-sm text-body-sm text-on-surface-variant">Cloud, ERP, CRM, analytics, collaboration, and platform ecosystems.</p></div>
@@ -200,7 +198,7 @@ export default function AboutDGL() {
                         </div>
                     </div>
                     <div className="bg-[#E0F7FA]/30 border border-outline-variant/40 rounded-2xl p-5">
-                        <img src={assetPath("/asset/company/about-digital/6.png")} alt="DGL compliance and governance assurance" className="w-full aspect-[4/3] object-cover object-center rounded-xl border border-outline-variant/35 mb-4" />
+                        <img src={assetPath("/asset/company/about-digital/6-optimized.webp")} alt="DGL compliance and governance assurance" className="w-full aspect-[4/3] object-cover object-center rounded-xl border border-outline-variant/35 mb-4" loading="lazy" decoding="async" />
                         <div className="grid grid-cols-1 gap-3">
                             <div className="bg-white border border-outline-variant/35 rounded-xl p-5"><span className="font-label-caps text-label-caps text-primary uppercase">Assurance outcome</span><p className="font-body-sm text-body-sm text-on-surface-variant mt-2">Clear evidence for quality, compliance, risk decisions, and delivery accountability.</p></div>
                             <div className="bg-white border border-outline-variant/35 rounded-xl p-5"><span className="font-label-caps text-label-caps text-primary uppercase">Review cadence</span><p className="font-body-sm text-body-sm text-on-surface-variant mt-2">Practical checkpoints keep governance current without slowing progress.</p></div>
@@ -238,7 +236,7 @@ export default function AboutDGL() {
                         </div>
                         <div className="grid grid-cols-1 md:grid-cols-[0.9fr_1.1fr] gap-5">
                             <div className="bg-[#E0F7FA]/30 border border-outline-variant/35 rounded-2xl p-5">
-                                <img src={assetPath("/asset/company/about-digital/5.png")} alt="DGL ESG and community impact" className="w-full aspect-[4/3] object-cover object-center rounded-xl border border-outline-variant/35 mb-4" />
+                                <img src={assetPath("/asset/company/about-digital/5-optimized.webp")} alt="DGL ESG and community impact" className="w-full aspect-[4/3] object-cover object-center rounded-xl border border-outline-variant/35 mb-4" loading="lazy" decoding="async" />
                                 <div className="grid grid-cols-1 gap-3">
                                     <div className="bg-white border border-outline-variant/35 rounded-xl p-4"><span className="font-label-caps text-label-caps text-primary uppercase">Green delivery</span><p className="font-body-sm text-body-sm text-on-surface-variant mt-2">Efficient platforms, reduced rework, remote collaboration, and digital-first workflows.</p></div>
                                     <div className="bg-white border border-outline-variant/35 rounded-xl p-4"><span className="font-label-caps text-label-caps text-primary uppercase">Skills value</span><p className="font-body-sm text-body-sm text-on-surface-variant mt-2">Knowledge transfer and workforce enablement are built into transformation plans.</p></div>

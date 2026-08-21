@@ -116,6 +116,11 @@
             contain-intrinsic-size: auto 720px;
         }
 
+        .optimized-page > section:nth-of-type(n + 2) {
+            content-visibility: auto;
+            contain-intrinsic-size: auto 720px;
+        }
+
         .arch-grid-line {
             background-image: linear-gradient(to right, #c3c5d9 1px, transparent 1px), linear-gradient(to bottom, #c3c5d9 1px, transparent 1px);
             background-size: 100px 100px;

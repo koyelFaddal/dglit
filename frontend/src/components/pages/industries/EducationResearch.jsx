@@ -1,13 +1,11 @@
-"use client";
-
 import Link from "next/link";
 import { assetPath } from "@/lib/assetPath";
 
 export default function EducationResearch() {
   return (
-    <main className="pt-24 pb-12 px-gutter bg-background min-h-[70vh]">
+    <main className="optimized-page pt-24 pb-12 px-gutter bg-background min-h-[70vh]">
       <section className="relative -mt-8 mb-12 -mx-gutter min-h-[620px] md:min-h-[680px] flex items-end md:items-center overflow-hidden bg-white">
-                          <img src={assetPath("/asset/industry/education/1.png")} alt="Education and research digital transformation" className="absolute inset-0 w-full h-full object-cover blur-[2.5px] scale-[1.02]" />
+                          <img src={assetPath("/asset/industry/education/1-optimized.webp")} alt="Education and research digital transformation" className="absolute inset-0 w-full h-full object-cover blur-[2.5px] scale-[1.02]" fetchPriority="high" loading="eager" decoding="async" />
                           <div className="absolute inset-0 bg-white/82"></div>
                           <div className="absolute inset-0 bg-gradient-to-r from-white/95 via-white/72 to-white/30"></div>
                           <div className="absolute inset-0 bg-gradient-to-t from-white/65 via-transparent to-white/20"></div>
@@ -72,7 +70,7 @@ export default function EducationResearch() {
                                       <div className="bg-white/85 border border-outline-variant/30 rounded-lg p-4"><span className="font-label-caps text-label-caps text-primary uppercase">Track</span><p className="font-body-sm text-body-sm text-on-surface-variant mt-2">Status, outcomes, interventions, and follow-up support.</p></div>
                                   </div>
                               </div>
-                              <img src={assetPath("/asset/industry/education/2.png")} alt="Digital campus services and academic collaboration" className="w-full h-[300px] md:h-[390px] object-cover rounded-xl border border-outline-variant/35 shadow-sm" />
+                              <img src={assetPath("/asset/industry/education/2-optimized.webp")} alt="Digital campus services and academic collaboration" className="w-full h-[300px] md:h-[390px] object-cover rounded-xl border border-outline-variant/35 shadow-sm" loading="lazy" decoding="async" />
                           </div>
                       </section>
                       <section className="max-w-container-max mx-auto py-12 md:py-14">
@@ -135,7 +133,7 @@ export default function EducationResearch() {
                       </section>
                       <section className="max-w-container-max mx-auto py-12 md:py-14">
                           <div className="grid grid-cols-1 lg:grid-cols-[1.05fr_0.95fr] gap-8 lg:gap-12 items-center">
-                              <img src={assetPath("/asset/industry/education/3.png")} alt="Education innovation and research collaboration" className="w-full h-[300px] md:h-[390px] object-cover rounded-xl border border-outline-variant/35 shadow-sm" />
+                              <img src={assetPath("/asset/industry/education/3-optimized.webp")} alt="Education innovation and research collaboration" className="w-full h-[300px] md:h-[390px] object-cover rounded-xl border border-outline-variant/35 shadow-sm" loading="lazy" decoding="async" />
                               <div><span className="font-label-caps text-label-caps text-secondary uppercase tracking-widest block mb-4">Innovation Programs</span><h2 className="font-headline-lg text-headline-lg text-on-surface mb-4">Create pathways between academia, industry, and community impact.</h2><p className="font-body-md text-body-md text-on-surface-variant mb-5">We help education and research organizations structure innovation programs, knowledge exchange, incubators, digital labs, and partner ecosystems with clear governance and measurable outcomes.</p><div className="grid grid-cols-1 sm:grid-cols-2 gap-3"><div className="border-l-4 border-primary bg-white p-4"><h3 className="font-headline-sm text-headline-sm mb-2">Partner networks</h3><p className="font-body-sm text-body-sm text-on-surface-variant">Shared projects, collaboration models, and external engagement.</p></div><div className="border-l-4 border-secondary bg-white p-4"><h3 className="font-headline-sm text-headline-sm mb-2">Impact evidence</h3><p className="font-body-sm text-body-sm text-on-surface-variant">Benefits tracking, case studies, reporting, and adoption signals.</p></div></div></div>
                           </div>
                       </section>

@@ -1,13 +1,11 @@
-"use client";
-
 import Link from "next/link";
 import { assetPath } from "@/lib/assetPath";
 
 export default function EducationResearchCaseStudies() {
     return (
-        <main className="pt-24 pb-12 px-gutter bg-background min-h-[70vh]">
+        <main className="optimized-page pt-24 pb-12 px-gutter bg-background min-h-[70vh]">
             <section className="relative -mt-8 mb-12 -mx-gutter min-h-[620px] md:min-h-[680px] flex items-end md:items-center overflow-hidden bg-white">
-                <img src={assetPath("/asset/case_studies/education_research/1.png")} alt="Education and research case study outcomes" className="absolute inset-0 w-full h-full object-cover blur-[2.5px] scale-[1.02]" />
+                <img src={assetPath("/asset/case_studies/education_research/1-optimized.webp")} alt="Education and research case study outcomes" className="absolute inset-0 w-full h-full object-cover blur-[2.5px] scale-[1.02]" fetchPriority="high" loading="eager" decoding="async" />
                 <div className="absolute inset-0 bg-white/82"></div>
                 <div className="absolute inset-0 bg-gradient-to-r from-white/95 via-white/72 to-white/30"></div>
                 <div className="absolute inset-0 bg-gradient-to-t from-white/65 via-transparent to-white/20"></div>
@@ -56,7 +54,7 @@ export default function EducationResearchCaseStudies() {
             <section className="max-w-container-max mx-auto py-10 md:py-14">
                 <div className="grid grid-cols-1 lg:grid-cols-[0.46fr_0.54fr] gap-7 lg:gap-10 items-center">
                     <div className="relative min-h-[300px] md:min-h-[390px] rounded-xl overflow-hidden border border-outline-variant/35 architectural-shadow">
-                        <img src={assetPath("/asset/case_studies/education_research/2.png")} alt="Education transformation team reviewing learning and research outcomes" className="absolute inset-0 w-full h-full object-cover" />
+                        <img src={assetPath("/asset/case_studies/education_research/2-optimized.webp")} alt="Education transformation team reviewing learning and research outcomes" className="absolute inset-0 w-full h-full object-cover" loading="lazy" decoding="async" />
                         <div className="absolute inset-x-0 bottom-0 bg-gradient-to-t from-black/82 via-black/42 to-transparent p-5 md:p-7">
                             <span className="font-label-caps text-[11px] leading-4 uppercase tracking-widest text-white/82 block mb-3">Featured Success Story</span>
                             <h2 className="font-headline-sm text-[25px] leading-[33px] md:text-[32px] md:leading-[40px] text-white max-w-xl">A digital campus programme became a shared delivery record.</h2>
@@ -125,7 +123,7 @@ export default function EducationResearchCaseStudies() {
                         </div>
                     </div>
                     <div className="relative min-h-[300px] md:min-h-[380px] rounded-xl overflow-hidden border border-outline-variant/35 architectural-shadow">
-                        <img src={assetPath("/asset/case_studies/education_research/3.png")} alt="Education and research team reviewing implementation lessons" className="absolute inset-0 w-full h-full object-cover" />
+                        <img src={assetPath("/asset/case_studies/education_research/3-optimized.webp")} alt="Education and research team reviewing implementation lessons" className="absolute inset-0 w-full h-full object-cover" loading="lazy" decoding="async" />
                         <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/10 to-transparent"></div>
                         <div className="absolute left-5 right-5 bottom-5 text-white">
                             <span className="font-label-caps text-[11px] leading-4 uppercase tracking-widest text-white/80 block mb-2">Field Reflection</span>

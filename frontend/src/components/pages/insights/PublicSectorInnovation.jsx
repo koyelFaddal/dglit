@@ -1,14 +1,12 @@
-"use client";
-
 import Link from "next/link";
 import { assetPath } from "@/lib/assetPath";
 
 export default function PublicSectorInnovation() {
   return (
-    <main className="pt-24 pb-12 px-gutter bg-background min-h-[70vh]">
+    <main className="optimized-page pt-24 pb-12 px-gutter bg-background min-h-[70vh]">
       <section className="relative -mt-24 md:-mt-8 min-h-[620px] lg:min-h-[660px] flex items-center pt-24 md:pt-20 pb-12 overflow-hidden bg-white -mx-gutter">
                           <div className="absolute inset-0 z-0">
-                              <img src={assetPath("/asset/insight/public_sector_inovation/1.png")} alt="AI enabled workplace transformation" className="w-full h-full object-cover object-center opacity-85 blur-[2px] md:blur-[1px] scale-[1.01]" />
+                              <img src={assetPath("/asset/insight/public_sector_inovation/1-optimized.webp")} alt="AI enabled workplace transformation" className="w-full h-full object-cover object-center opacity-85 blur-[2px] md:blur-[1px] scale-[1.01]" fetchPriority="high" loading="eager" decoding="async" />
                               <div className="absolute inset-0 bg-gradient-to-r from-white via-white/78 to-white/24"></div>
                               <div className="absolute inset-0 bg-gradient-to-t from-white/76 via-transparent to-white/16"></div>
                               <div className="absolute left-0 top-0 h-full w-2/3 bg-[#E0F7FA]/40 blur-3xl opacity-90"></div>
@@ -67,7 +65,7 @@ export default function PublicSectorInnovation() {
                       <section className="max-w-container-max mx-auto py-10 md:py-12">
                           <div className="grid grid-cols-1 lg:grid-cols-[0.95fr_1.05fr] gap-6 lg:gap-8 items-stretch">
                               <div className="relative rounded-2xl overflow-hidden border border-outline-variant/35 min-h-[300px] md:min-h-[420px]">
-                                  <img src={assetPath("/asset/insight/public_sector_inovation/2.png")} alt="Smart government systems and connected public service operations" className="absolute inset-0 h-full w-full object-cover object-center" />
+                                  <img src={assetPath("/asset/insight/public_sector_inovation/2-optimized.webp")} alt="Smart government systems and connected public service operations" className="absolute inset-0 h-full w-full object-cover object-center" loading="lazy" decoding="async" />
                                   <div className="absolute inset-0 bg-gradient-to-t from-white/92 via-white/45 to-transparent"></div>
                               </div>
                               <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
@@ -151,7 +149,7 @@ export default function PublicSectorInnovation() {
                                   </div>
                               </div>
                               <div className="relative rounded-2xl overflow-hidden border border-outline-variant/35 min-h-[300px]">
-                                  <img src={assetPath("/asset/insight/public_sector_inovation/3.png")} alt="Public infrastructure modernization and digital platform architecture" className="absolute inset-0 h-full w-full object-cover object-center" />
+                                  <img src={assetPath("/asset/insight/public_sector_inovation/3-optimized.webp")} alt="Public infrastructure modernization and digital platform architecture" className="absolute inset-0 h-full w-full object-cover object-center" loading="lazy" decoding="async" />
                                   <div className="absolute inset-0 bg-gradient-to-t from-white/90 via-white/35 to-transparent"></div>
                                   <div className="absolute left-5 right-5 bottom-5 rounded-xl bg-white/90 border border-white/70 p-4"><span className="font-label-caps text-label-caps text-primary uppercase">Platform principle</span><p className="font-body-sm text-body-sm text-on-surface-variant mt-1">Standardize the foundation, personalize the service.</p></div>
                               </div>

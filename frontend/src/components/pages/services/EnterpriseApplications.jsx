@@ -1,11 +1,9 @@
-"use client";
-
 import Link from "next/link";
 import { assetPath } from "@/lib/assetPath";
 
 export default function EnterpriseApplications() {
   return (
-    <main className="pt-24 pb-12 px-gutter bg-background min-h-[70vh]">
+    <main className="optimized-page pt-24 pb-12 px-gutter bg-background min-h-[70vh]">
       <section className="max-w-container-max mx-auto pb-14 md:pb-20 pt-8 md:pt-10">
                           <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 lg:gap-14 items-stretch">
                               <div className="lg:col-span-7 flex flex-col justify-center">
@@ -18,7 +16,7 @@ export default function EnterpriseApplications() {
                                   </div>
                               </div>
                               <div className="lg:col-span-5 bg-surface-container-lowest border border-outline-variant/40 rounded-xl architectural-shadow overflow-hidden">
-                                  <img src={assetPath("/asset/technology/enterprise/1.png")} alt="Enterprise application planning workspace" className="w-full h-48 md:h-56 object-cover object-center block" />
+                                  <img src={assetPath("/asset/technology/enterprise/1-optimized.webp")} alt="Enterprise application planning workspace" className="w-full h-48 md:h-56 object-cover object-center block" fetchPriority="high" loading="eager" decoding="async" />
                                   <div className="p-6 md:p-7">
                                       <p className="font-label-caps text-label-caps text-secondary uppercase tracking-widest mb-4">Application Modernization Model</p>
                                       <div className="grid grid-cols-3 gap-4 mb-5">
@@ -65,13 +63,13 @@ export default function EnterpriseApplications() {
                                       <div className="border border-outline-variant/30 rounded-lg p-4"><span className="font-label-caps text-label-caps text-secondary uppercase">Supply Chain</span></div>
                                   </div>
                               </div>
-                              <img src={assetPath("/asset/technology/enterprise/2.png")} alt="ERP operations and enterprise workflow dashboard" className="w-full h-52 md:h-60 object-cover rounded-xl border border-outline-variant/35 shadow-sm" />
+                              <img src={assetPath("/asset/technology/enterprise/2-optimized.webp")} alt="ERP operations and enterprise workflow dashboard" className="w-full h-52 md:h-60 object-cover rounded-xl border border-outline-variant/35 shadow-sm" loading="lazy" decoding="async" />
                           </div>
                       </section>
                       <section className="max-w-container-max mx-auto py-12 md:py-14 border-y border-outline-variant/25">
                           <div className="grid grid-cols-1 lg:grid-cols-[1.05fr_0.95fr] gap-7 items-stretch">
                               <div className="order-2 lg:order-1">
-                                  <img src={assetPath("/asset/technology/enterprise/3.png")} alt="CRM customer operations and analytics" className="w-full h-64 md:h-72 lg:h-[350px] object-cover rounded-xl border border-outline-variant/35 shadow-sm" />
+                                  <img src={assetPath("/asset/technology/enterprise/3-optimized.webp")} alt="CRM customer operations and analytics" className="w-full h-64 md:h-72 lg:h-[350px] object-cover rounded-xl border border-outline-variant/35 shadow-sm" loading="lazy" decoding="async" />
                               </div>
                               <div className="order-1 lg:order-2 flex flex-col justify-center">
                                   <span className="font-label-caps text-label-caps text-secondary uppercase tracking-widest block mb-4">CRM</span>
@@ -123,7 +121,7 @@ export default function EnterpriseApplications() {
                       </section>
                       <section className="max-w-container-max mx-auto py-12 md:py-14">
                           <div className="grid grid-cols-1 lg:grid-cols-[0.9fr_1.1fr] gap-7 items-center">
-                              <img src={assetPath("/asset/technology/enterprise/4.png")} alt="Oracle enterprise application analytics" className="w-full h-52 md:h-60 object-cover rounded-xl border border-outline-variant/35 shadow-sm" />
+                              <img src={assetPath("/asset/technology/enterprise/4-optimized.webp")} alt="Oracle enterprise application analytics" className="w-full h-52 md:h-60 object-cover rounded-xl border border-outline-variant/35 shadow-sm" loading="lazy" decoding="async" />
                               <div className="bg-white border border-outline-variant/35 rounded-xl p-6 md:p-7 shadow-sm">
                                   <span className="font-label-caps text-label-caps text-secondary uppercase tracking-widest block mb-4">Oracle</span>
                                   <h2 className="font-headline-lg text-headline-lg text-on-surface mb-4">Governed performance across cloud enterprise applications.</h2>
@@ -172,7 +170,7 @@ export default function EnterpriseApplications() {
       
                       <section className="max-w-container-max mx-auto py-12 md:py-14">
                           <div className="grid grid-cols-1 lg:grid-cols-[0.92fr_1.08fr] gap-7 items-stretch">
-                              <img src={assetPath("/asset/technology/data_analytics/1.png")} alt="Data engineering and analytics platform operations" className="w-full h-64 md:h-72 lg:h-full min-h-[300px] object-cover rounded-xl border border-outline-variant/35 shadow-sm" />
+                              <img src={assetPath("/asset/technology/data_analytics/1-optimized.webp")} alt="Data engineering and analytics platform operations" className="w-full h-64 md:h-72 lg:h-full min-h-[300px] object-cover rounded-xl border border-outline-variant/35 shadow-sm" loading="lazy" decoding="async" />
                               <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                                   <div className="sm:col-span-2 bg-white border border-outline-variant/35 rounded-xl p-6 md:p-7 shadow-sm"><span className="font-label-caps text-label-caps text-secondary uppercase tracking-widest block mb-4">Analytics Platform Services</span><h2 className="font-headline-lg text-headline-lg text-on-surface mb-4">Build the data products teams actually reuse.</h2><p className="font-body-md text-body-md text-on-surface-variant">Our delivery approach covers source integration, transformation logic, semantic layers, warehouse design, visualization, and support models.</p></div>
                                   <div className="bg-[#E0F7FA]/30 border border-outline-variant/35 rounded-lg p-5"><h3 className="font-headline-sm text-headline-sm mb-2">Data engineering</h3><p className="font-body-sm text-body-sm text-on-surface-variant">Reliable ingestion, transformation, orchestration, and exception handling.</p></div>

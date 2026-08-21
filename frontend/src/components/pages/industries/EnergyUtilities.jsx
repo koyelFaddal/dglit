@@ -1,14 +1,12 @@
-"use client";
-
 import Link from "next/link";
 import { assetPath } from "@/lib/assetPath";
 
 export default function EnergyUtilities() {
   return (
-    <main className="pt-24 pb-12 px-gutter bg-background min-h-[70vh]">
+    <main className="optimized-page pt-24 pb-12 px-gutter bg-background min-h-[70vh]">
       <section className="relative -mt-24 md:-mt-8 min-h-[640px] lg:min-h-[680px] flex items-center pt-24 md:pt-20 pb-12 overflow-hidden bg-surface -mx-gutter">
                           <div className="absolute inset-0 z-0">
-                              <img alt="Energy and utilities infrastructure modernization" className="hero-visual-balance w-full h-full object-cover object-center lg:object-right opacity-80 blur-[2px] md:blur-[1px] scale-[1.01]" src={assetPath("/asset/industry/energy/1.png")} />
+                              <img alt="Energy and utilities infrastructure modernization" className="hero-visual-balance w-full h-full object-cover object-center lg:object-right opacity-80 blur-[2px] md:blur-[1px] scale-[1.01]" src={assetPath("/asset/industry/energy/1-optimized.webp")} fetchPriority="high" loading="eager" decoding="async" />
                               <div className="absolute inset-0 bg-gradient-to-r from-background via-background/78 to-background/15"></div>
                               <div className="absolute inset-0 bg-gradient-to-t from-background/72 via-transparent to-background/20"></div>
                               <div className="absolute left-0 top-0 h-full w-2/3 bg-primary-fixed/25 blur-3xl opacity-70"></div>
@@ -78,7 +76,7 @@ export default function EnergyUtilities() {
                       <section className="max-w-container-max mx-auto py-10 md:py-14">
                           <div className="grid grid-cols-1 lg:grid-cols-[1.08fr_0.92fr] gap-8 lg:gap-12 items-stretch">
                               <div className="relative min-h-[320px] md:min-h-[440px] overflow-hidden rounded-xl border border-outline-variant/35">
-                                  <img src={assetPath("/asset/industry/energy/2.png")} alt="Utility infrastructure planning and operational visibility" className="absolute inset-0 w-full h-full object-cover" />
+                                  <img src={assetPath("/asset/industry/energy/2-optimized.webp")} alt="Utility infrastructure planning and operational visibility" className="absolute inset-0 w-full h-full object-cover" loading="lazy" decoding="async" />
                                   <div className="absolute inset-0 bg-white/60"></div>
                                   <div className="absolute left-0 bottom-0 right-0 p-6 md:p-8">
                                       <span className="font-label-caps text-label-caps text-secondary uppercase tracking-widest block mb-3">Core Service Areas</span>
@@ -152,7 +150,7 @@ export default function EnergyUtilities() {
                                       <div className="border-t-4 border-primary pt-3"><span className="font-label-caps text-label-caps text-primary uppercase">Renewal</span><p className="font-body-sm text-body-sm text-on-surface-variant mt-2">Capital timing and options.</p></div>
                                   </div>
                               </div>
-                              <img src={assetPath("/asset/industry/energy/3.png")} alt="Energy asset management and renewable infrastructure planning" className="w-full h-[300px] md:h-[420px] object-cover rounded-xl border border-outline-variant/35 shadow-sm" />
+                              <img src={assetPath("/asset/industry/energy/3-optimized.webp")} alt="Energy asset management and renewable infrastructure planning" className="w-full h-[300px] md:h-[420px] object-cover rounded-xl border border-outline-variant/35 shadow-sm" loading="lazy" decoding="async" />
                           </div>
                       </section>
                       <section className="-mx-gutter md:mx-auto max-w-container-max py-10 md:py-14 bg-[#E0F7FA]/30 rounded-none md:rounded-xl px-gutter md:px-8">

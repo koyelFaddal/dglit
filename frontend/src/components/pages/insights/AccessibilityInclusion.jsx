@@ -1,14 +1,12 @@
-"use client";
-
 import Link from "next/link";
 import { assetPath } from "@/lib/assetPath";
 
 export default function AccessibilityInclusion() {
   return (
-    <main className="pt-24 pb-12 px-gutter bg-background min-h-[70vh]">
+    <main className="optimized-page pt-24 pb-12 px-gutter bg-background min-h-[70vh]">
       <section className="relative -mt-24 md:-mt-8 min-h-[620px] lg:min-h-[660px] flex items-center pt-24 md:pt-20 pb-12 overflow-hidden bg-white -mx-gutter">
                           <div className="absolute inset-0 z-0">
-                              <img src={assetPath("/asset/insight/accessibility/1.png")} alt="Accessibility and inclusive digital experience planning" className="w-full h-full object-cover object-center opacity-85 blur-[2px] md:blur-[1px] scale-[1.01]" />
+                              <img src={assetPath("/asset/insight/accessibility/1-optimized.webp")} alt="Accessibility and inclusive digital experience planning" className="w-full h-full object-cover object-center opacity-85 blur-[2px] md:blur-[1px] scale-[1.01]" fetchPriority="high" loading="eager" decoding="async" />
                               <div className="absolute inset-0 bg-gradient-to-r from-white via-white/78 to-white/24"></div>
                               <div className="absolute inset-0 bg-gradient-to-t from-white/76 via-transparent to-white/16"></div>
                               <div className="absolute left-0 top-0 h-full w-2/3 bg-[#E0F7FA]/40 blur-3xl opacity-90"></div>
@@ -50,7 +48,7 @@ export default function AccessibilityInclusion() {
                       <section className="max-w-container-max mx-auto py-10 md:py-12">
                           <div className="grid grid-cols-1 lg:grid-cols-[0.50fr_0.50fr] gap-6 lg:gap-8 items-stretch">
                               <div className="relative min-h-[320px] rounded-2xl overflow-hidden border border-outline-variant/35">
-                                  <img src={assetPath("/asset/insight/accessibility/2.png")} alt="Inclusive digital experience and accessible journey workshop" className="absolute inset-0 h-full w-full object-cover object-center" />
+                                  <img src={assetPath("/asset/insight/accessibility/2-optimized.webp")} alt="Inclusive digital experience and accessible journey workshop" className="absolute inset-0 h-full w-full object-cover object-center" loading="lazy" decoding="async" />
                                   <div className="absolute inset-0 bg-gradient-to-t from-white/92 via-white/35 to-transparent"></div>
                                   <div className="absolute left-5 right-5 bottom-5 rounded-xl bg-white/90 border border-white/70 p-4 shadow-sm"><span className="font-label-caps text-label-caps text-primary uppercase">Inclusive experience layer</span><p className="font-body-sm text-body-sm text-on-surface-variant mt-2">Journeys are checked against real access needs before patterns are reused.</p></div>
                               </div>
@@ -110,7 +108,7 @@ export default function AccessibilityInclusion() {
                       <section className="max-w-container-max mx-auto py-10 md:py-12">
                           <div className="grid grid-cols-1 lg:grid-cols-[0.44fr_0.56fr] gap-6 lg:gap-8 items-stretch">
                               <div className="relative min-h-[300px] rounded-2xl overflow-hidden border border-outline-variant/35">
-                                  <img src={assetPath("/asset/insight/accessibility/3.png")} alt="Barrier free accessible technology systems" className="absolute inset-0 h-full w-full object-cover object-center" />
+                                  <img src={assetPath("/asset/insight/accessibility/3-optimized.webp")} alt="Barrier free accessible technology systems" className="absolute inset-0 h-full w-full object-cover object-center" loading="lazy" decoding="async" />
                                   <div className="absolute inset-0 bg-gradient-to-t from-white/92 via-white/36 to-transparent"></div>
                                   <div className="absolute left-5 right-5 bottom-5 rounded-xl bg-white/90 border border-white/70 p-4 shadow-sm"><span className="font-label-caps text-label-caps text-primary uppercase">Barrier-free stack</span><p className="font-body-sm text-body-sm text-on-surface-variant mt-2">The platform stack carries accessibility rules into every release.</p></div>
                               </div>

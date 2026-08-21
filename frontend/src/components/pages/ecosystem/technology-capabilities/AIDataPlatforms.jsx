@@ -1,13 +1,11 @@
-"use client";
-
 import Link from "next/link";
 import { assetPath } from "@/lib/assetPath";
 
 export default function AIDataPlatforms() {
     return (
-        <main className="pt-24 pb-12 px-gutter bg-background min-h-[70vh]">
+        <main className="optimized-page pt-24 pb-12 px-gutter bg-background min-h-[70vh]">
             <section className="relative -mt-24 md:-mt-8 mb-3 md:mb-4 -mx-gutter min-h-[620px] md:min-h-[560px] flex items-center overflow-hidden bg-white">
-                <img src={assetPath("/asset/ecosystem/techology/ai_data_platform/1.png")} alt="Enterprise AI data platform architecture and analytics intelligence" className="absolute inset-0 h-full w-full object-cover opacity-20 hero-visual-balance" />
+                <img src={assetPath("/asset/ecosystem/techology/ai_data_platform/1-optimized.webp")} alt="Enterprise AI data platform architecture and analytics intelligence" className="absolute inset-0 h-full w-full object-cover opacity-20 hero-visual-balance" fetchPriority="high" loading="eager" decoding="async" />
                 <div className="absolute inset-0 bg-white/82"></div>
                 <div className="absolute inset-0 bg-[#E0F7FA]/30"></div>
                 <div className="relative z-10 w-full max-w-container-max mx-auto px-gutter pt-28 md:pt-16 lg:pt-20 pb-10 md:pb-12">
@@ -125,7 +123,7 @@ export default function AIDataPlatforms() {
             </section>
             <section className="-mx-gutter md:mx-auto max-w-container-max py-8 md:py-12 px-gutter md:px-8 bg-[#E0F7FA]/30 rounded-none md:rounded-xl">
                 <div className="grid grid-cols-1 lg:grid-cols-[1.04fr_0.96fr] gap-8 lg:gap-12 items-center">
-                    <img src={assetPath("/asset/ecosystem/techology/ai_data_platform/3.png")} alt="Enterprise analytics platform and AI readiness dashboards" className="w-full h-[300px] md:h-[390px] object-cover rounded-xl border border-outline-variant/35 shadow-sm" />
+                    <img src={assetPath("/asset/ecosystem/techology/ai_data_platform/3-optimized.webp")} alt="Enterprise analytics platform and AI readiness dashboards" className="w-full h-[300px] md:h-[390px] object-cover rounded-xl border border-outline-variant/35 shadow-sm" loading="lazy" decoding="async" />
                     <div>
                         <span className="font-label-caps text-label-caps text-secondary uppercase tracking-widest block mb-4">Analytics Platforms &amp; Intelligence</span>
                         <h2 className="font-headline-lg text-[25px] leading-[33px] md:text-headline-lg md:leading-[40px] text-on-surface mb-4"><span className="md:hidden">Deliver BI, reporting, and operational intelligence.</span><span className="hidden md:inline">Deliver BI, reporting, and operational intelligence from governed data products.</span></h2>

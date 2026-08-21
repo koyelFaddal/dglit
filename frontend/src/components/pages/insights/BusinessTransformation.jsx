@@ -1,14 +1,12 @@
-"use client";
-
 import Link from "next/link";
 import { assetPath } from "@/lib/assetPath";
 
 export default function BusinessTransformation() {
   return (
-    <main className="pt-24 pb-12 px-gutter bg-background min-h-[70vh]">
+    <main className="optimized-page pt-24 pb-12 px-gutter bg-background min-h-[70vh]">
       <section className="relative -mt-24 md:-mt-8 min-h-[620px] lg:min-h-[660px] flex items-center pt-24 md:pt-20 pb-12 overflow-hidden bg-white -mx-gutter">
                           <div className="absolute inset-0 z-0">
-                              <img src={assetPath("/asset/insight/business_transformation/1.png")} alt="Business transformation strategy and enterprise change planning" className="w-full h-full object-cover object-center opacity-85 blur-[2px] md:blur-[1px] scale-[1.01]" />
+                              <img src={assetPath("/asset/insight/business_transformation/1-optimized.webp")} alt="Business transformation strategy and enterprise change planning" className="w-full h-full object-cover object-center opacity-85 blur-[2px] md:blur-[1px] scale-[1.01]" fetchPriority="high" loading="eager" decoding="async" />
                               <div className="absolute inset-0 bg-gradient-to-r from-white via-white/78 to-white/24"></div>
                               <div className="absolute inset-0 bg-gradient-to-t from-white/76 via-transparent to-white/16"></div>
                               <div className="absolute left-0 top-0 h-full w-2/3 bg-[#E0F7FA]/40 blur-3xl opacity-90"></div>
@@ -118,7 +116,7 @@ export default function BusinessTransformation() {
                                   </div>
                               </div>
                               <div className="relative overflow-hidden rounded-xl border border-outline-variant/35 bg-white">
-                                  <img src={assetPath("/asset/insight/business_transformation/2.png")} alt="Transformation portfolio cockpit and leadership review" className="w-full h-[340px] md:h-[470px] object-cover" />
+                                  <img src={assetPath("/asset/insight/business_transformation/2-optimized.webp")} alt="Transformation portfolio cockpit and leadership review" className="w-full h-[340px] md:h-[470px] object-cover" loading="lazy" decoding="async" />
                                   <div className="absolute left-4 right-4 bottom-4 rounded-xl bg-white/90 border border-white/70 p-4">
                                       <div className="flex flex-wrap gap-2">
                                           <span className="rounded-lg bg-[#E0F7FA]/50 px-3 py-2 font-label-caps text-label-caps text-primary uppercase">Prioritize</span>
@@ -191,7 +189,7 @@ export default function BusinessTransformation() {
                       <section className="-mx-gutter md:mx-auto max-w-container-max py-10 md:py-14 px-gutter md:px-8 bg-[#E0F7FA]/30 rounded-none md:rounded-xl">
                           <div className="grid grid-cols-1 lg:grid-cols-[1.05fr_0.95fr] gap-8 lg:gap-12 items-center">
                               <div className="relative overflow-hidden rounded-xl border border-outline-variant/35 bg-white">
-                                  <img src={assetPath("/asset/insight/business_transformation/3.png")} alt="Business transformation operating model and value realization planning" className="w-full h-[320px] md:h-[440px] object-cover" />
+                                  <img src={assetPath("/asset/insight/business_transformation/3-optimized.webp")} alt="Business transformation operating model and value realization planning" className="w-full h-[320px] md:h-[440px] object-cover" loading="lazy" decoding="async" />
                                   <div className="absolute inset-x-4 bottom-4 rounded-xl bg-white/90 border border-white/70 p-4">
                                       <p className="font-label-caps text-label-caps text-primary uppercase">Value does not wait for the final release</p>
                                   </div>

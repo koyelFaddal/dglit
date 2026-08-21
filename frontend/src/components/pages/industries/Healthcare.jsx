@@ -1,13 +1,11 @@
-"use client";
-
 import Link from "next/link";
 import { assetPath } from "@/lib/assetPath";
 
 export default function Healthcare() {
   return (
-    <main className="pt-24 pb-12 px-gutter bg-background min-h-[70vh]">
+    <main className="optimized-page pt-24 pb-12 px-gutter bg-background min-h-[70vh]">
       <section className="relative -mt-8 mb-8 md:mb-10 -mx-gutter min-h-[540px] md:min-h-[560px] lg:min-h-[545px] flex items-end lg:items-start overflow-hidden bg-white">
-                          <img src={assetPath("/asset/industry/health/1.png")} alt="Healthcare digital transformation for connected patient services" className="absolute inset-0 w-full h-full object-cover blur-[1.5px] scale-[1.01]" />
+                          <img src={assetPath("/asset/industry/health/1-optimized.webp")} alt="Healthcare digital transformation for connected patient services" className="absolute inset-0 w-full h-full object-cover blur-[1.5px] scale-[1.01]" fetchPriority="high" loading="eager" decoding="async" />
                           <div className="absolute inset-0 bg-white/78"></div>
                           <div className="absolute inset-0 bg-[#E0F7FA]/30"></div>
                           <div className="relative z-10 w-full max-w-container-max mx-auto px-gutter pb-10 md:pb-12 pt-10 md:pt-12">
@@ -38,7 +36,7 @@ export default function Healthcare() {
                                       <div className="border-l-4 border-secondary bg-[#E0F7FA]/30 p-4"><h3 className="font-headline-sm text-headline-sm mb-2">Clinical reliability</h3><p className="font-body-sm text-body-sm text-on-surface-variant">Processes, data, and governance that support safe, consistent care delivery.</p></div>
                                   </div>
                               </div>
-                              <img src={assetPath("/asset/industry/health/2.png")} alt="Healthcare professionals coordinating digital patient services" className="w-full h-[320px] md:h-[420px] object-cover rounded-xl border border-outline-variant/35 shadow-sm" />
+                              <img src={assetPath("/asset/industry/health/2-optimized.webp")} alt="Healthcare professionals coordinating digital patient services" className="w-full h-[320px] md:h-[420px] object-cover rounded-xl border border-outline-variant/35 shadow-sm" loading="lazy" decoding="async" />
                           </div>
                       </section>
                       <section className="-mx-gutter lg:mx-auto max-w-container-max py-10 md:py-14 bg-[#E0F7FA]/30 px-4 lg:px-6 md:px-8 rounded-none lg:rounded-xl">
@@ -76,7 +74,7 @@ export default function Healthcare() {
                                       </div>
                                   </div>
                                   <div className="relative overflow-hidden rounded-xl border border-outline-variant/35 bg-white shadow-sm">
-                                      <img src={assetPath("/asset/industry/health/3.png")} alt="Healthcare innovation and connected care operations" className="w-full h-[260px] sm:h-[300px] md:h-[390px] object-cover" />
+                                      <img src={assetPath("/asset/industry/health/3-optimized.webp")} alt="Healthcare innovation and connected care operations" className="w-full h-[260px] sm:h-[300px] md:h-[390px] object-cover" loading="lazy" decoding="async" />
                                       <div className="absolute left-4 right-4 bottom-4 grid grid-cols-3 gap-2">
                                           <div className="bg-white/90 border border-white rounded-lg p-3"><span className="font-label-caps text-label-caps text-primary uppercase">Access</span></div>
                                           <div className="bg-white/90 border border-white rounded-lg p-3"><span className="font-label-caps text-label-caps text-primary uppercase">Care</span></div>
