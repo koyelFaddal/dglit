@@ -3,6 +3,7 @@
 import { useEffect, useState } from "react";
 import Link from "next/link";
 import { assetPath } from "@/lib/assetPath";
+import LegacyBehavior from "@/components/layout/LegacyBehavior";
 
 const API_BASE_URL = (process.env.NEXT_PUBLIC_API_BASE_URL || "http://127.0.0.1:8000").replace(/\/$/, "");
 
@@ -196,6 +197,7 @@ export default function Careers() {
 
     return (
         <main className="pt-24 pb-12 px-gutter bg-background min-h-[70vh]">
+            <LegacyBehavior />
             <section className="relative -mt-24 md:-mt-8 min-h-[640px] lg:min-h-[700px] flex items-center pt-24 md:pt-20 pb-12 overflow-hidden bg-surface -mx-gutter">
                 <div className="absolute inset-0 z-0">
                     <img alt="Denova careers workspace"

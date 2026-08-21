@@ -77,18 +77,18 @@ const htmlTheme = {
                         "section-gap": "120px"
                     },
                     "fontFamily": {
-                        "headline-lg-mobile": ["Hanken Grotesk"],
-                        "headline-md": ["Hanken Grotesk"],
-                        "display-lg": ["Hanken Grotesk"],
-                        "body-sm": ["Inter"],
-                        "display-sm": ["Hanken Grotesk"],
-                        "body-lg": ["Inter"],
-                        "label-caps": ["Inter"],
-                        "headline-lg": ["Hanken Grotesk"],
-                        "headline-sm": ["Hanken Grotesk"],
-                        "label-sm": ["Inter"],
-                        "label-bold": ["Inter"],
-                        "body-md": ["Inter"]
+                        "headline-lg-mobile": ["var(--font-hanken-grotesk)", "sans-serif"],
+                        "headline-md": ["var(--font-hanken-grotesk)", "sans-serif"],
+                        "display-lg": ["var(--font-hanken-grotesk)", "sans-serif"],
+                        "body-sm": ["var(--font-inter)", "sans-serif"],
+                        "display-sm": ["var(--font-hanken-grotesk)", "sans-serif"],
+                        "body-lg": ["var(--font-inter)", "sans-serif"],
+                        "label-caps": ["var(--font-inter)", "sans-serif"],
+                        "headline-lg": ["var(--font-hanken-grotesk)", "sans-serif"],
+                        "headline-sm": ["var(--font-hanken-grotesk)", "sans-serif"],
+                        "label-sm": ["var(--font-inter)", "sans-serif"],
+                        "label-bold": ["var(--font-inter)", "sans-serif"],
+                        "body-md": ["var(--font-inter)", "sans-serif"]
                     },
                     "fontSize": {
                         "headline-lg-mobile": ["28px", { "lineHeight": "36px", "letterSpacing": "-0.01em", "fontWeight": "600" }],

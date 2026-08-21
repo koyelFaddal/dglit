@@ -366,15 +366,6 @@ export default function LegacyBehavior() {
     document.addEventListener("submit", handleSubmit);
     document.addEventListener("keydown", handleKeydown);
 
-    document.querySelectorAll(".mobile-nav-item").forEach((item) => {
-      item.addEventListener("toggle", () => {
-        if (!item.open) return;
-        document.querySelectorAll(".mobile-nav-item[open]").forEach((openItem) => {
-          if (openItem !== item) openItem.removeAttribute("open");
-        });
-      });
-    });
-
     return () => {
       document.removeEventListener("click", handleClick);
       document.removeEventListener("change", handleChange);

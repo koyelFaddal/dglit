@@ -2,13 +2,14 @@ import { assetPath } from "@/lib/assetPath";
 export default function CaseStudies() {
     return (
         <>
-            <section className="mobile-section-tight py-24 px-gutter max-w-container-max mx-auto ">
+            <section className="defer-offscreen mobile-section-tight py-24 px-gutter max-w-container-max mx-auto ">
                 <div className="architects-layout grid grid-cols-1 lg:grid-cols-12 gap-gutter">
                     <div className="lg:col-span-5">
                         <h2 className="font-headline-lg text-headline-lg text-on-surface mb-8">Architects of the Digital Future</h2>
                         <div
                             className="architects-image-wrap max-w-[520px] overflow-hidden rounded-xl border border-outline-variant/30 bg-surface-container-lowest shadow-[0_24px_60px_rgba(15,23,42,0.10)]">
                             <img src={assetPath("/asset/architect/1.webp")} alt="Architectural digital transformation visual"
+                                loading="lazy" decoding="async"
                                 className="w-full aspect-[4/3] object-cover object-center" />
                         </div>
                     </div>

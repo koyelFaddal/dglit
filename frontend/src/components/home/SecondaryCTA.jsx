@@ -1,11 +1,9 @@
-"use client";
-
 import Link from "next/link";
 
 export default function SecondaryCTA() {
     return (
         <>
-            <section className="mobile-section-compact py-16 px-gutter bg-surface">
+            <section className="defer-offscreen mobile-section-compact py-16 px-gutter bg-surface">
                 <div
                     className="mobile-cta-card max-w-container-max mx-auto bg-surface-container-lowest border border-outline-variant/40 rounded-xl architectural-shadow overflow-hidden">
                     <div className="grid grid-cols-1 lg:grid-cols-12 items-stretch">

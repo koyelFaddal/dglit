@@ -16,7 +16,7 @@ export default function ArchitectureSection() {
 
     return (
         <>
-            <section className="mobile-section-top-tight py-20 bg-surface">
+            <section className="defer-offscreen mobile-section-top-tight py-20 bg-surface">
                 <div className="px-margin-desktop max-w-container-max mx-auto grid grid-cols-12 gap-gutter">
                     <div className="col-span-12 lg:col-span-5">
                         <h2 className="font-headline-md text-headline-md mb-8">Our Certifications</h2>
@@ -47,6 +47,7 @@ export default function ArchitectureSection() {
                             <div className="absolute inset-0">
                                 <div className="absolute inset-0">
                                 <img className="h-full w-full object-fill"
+                                    loading="lazy" decoding="async"
                                     data-alt="A stylized, minimalist outline map of the world presented in a light gray and blue aesthetic. Subtle pin markers highlight company office regions across the United Kingdom, Qatar, United States, India, United Arab Emirates, and Maldives. The style is clean, modern, and data-centric, emphasizing global connectivity and strategic geographic reach."
                                     src={assetPath("/asset/logo/global-presence-map.webp")} />
                                 </div>

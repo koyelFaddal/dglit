@@ -100,6 +100,20 @@ export default function Header() {
         return () => mobileMenu.removeEventListener("click", closeMobileMenu);
     }, [pathname]);
 
+    useEffect(() => {
+        const mobileMenuItems = Array.from(document.querySelectorAll("header .mobile-nav-item"));
+        const closeSiblingMenus = (event) => {
+            const currentItem = event.currentTarget;
+            if (!currentItem.open) return;
+            mobileMenuItems.forEach((item) => {
+                if (item !== currentItem) item.removeAttribute("open");
+            });
+        };
+
+        mobileMenuItems.forEach((item) => item.addEventListener("toggle", closeSiblingMenus));
+        return () => mobileMenuItems.forEach((item) => item.removeEventListener("toggle", closeSiblingMenus));
+    }, []);
+
     return (
         <>
             <header

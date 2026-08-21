@@ -1,12 +1,16 @@
 import { assetPath } from "@/lib/assetPath";
+import Image from "next/image";
 export default function Hero() {
     return (
         <>
             <section className="relative min-h-[680px] lg:min-h-[760px] flex items-center pt-20 overflow-hidden bg-surface">
                 <div className="absolute inset-0 z-0">
-                    <img alt="Strategic Innovation Background"
+                    <Image alt="Strategic Innovation Background"
                         className="hero-visual-balance w-full h-full object-cover object-center lg:object-right opacity-80"
-                        src={assetPath("/asset/hero/hero.webp")} />
+                        fill
+                        priority
+                        sizes="100vw"
+                        src={assetPath("/asset/hero/hero-optimized.webp")} />
                     <div className="absolute inset-0 bg-gradient-to-r from-background via-background/75 to-background/10"></div>
                     <div className="absolute inset-0 bg-gradient-to-t from-background/70 via-transparent to-background/20"></div>
                     <div className="absolute left-0 top-0 h-full w-2/3 bg-primary-fixed/25 blur-3xl opacity-70"></div>

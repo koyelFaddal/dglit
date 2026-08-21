@@ -1,7 +1,7 @@
 export default function PrimaryCTA() {
     return (
         <>
-            <section className="mobile-section-bottom-tight py-20 xl:pt-10 xl:pb-8 px-gutter bg-surface overflow-hidden">
+            <section className="defer-offscreen mobile-section-bottom-tight py-20 xl:pt-10 xl:pb-8 px-gutter bg-surface overflow-hidden">
                 <div className="max-w-container-max mx-auto">
                     <h3 className="font-label-caps text-label-caps text-text-secondary uppercase tracking-widest mb-12 text-center">
                         Our Strategic Ecosystem</h3>
