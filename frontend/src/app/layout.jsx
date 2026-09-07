@@ -18,6 +18,8 @@ const inter = Inter({
   variable: "--font-inter",
 });
 
+export const viewport = { colorScheme: "light" };
+
 export const metadata = {
   title: "DGL IT Services | Strategic Innovation & Technology",
   description: "DGL IT Services",

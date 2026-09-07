@@ -112,3 +112,29 @@
   .ecosystem h3 { font-size: .95rem; line-height: 1.4; }
   .ecosystem p { font-size: .78rem; line-height: 1.6; }
 }
+
+/* Explicit cool mobile palette; desktop artwork and layout remain unchanged. */
+@media (max-width: 760px) {
+  .page { --ink: #354354; --muted: #596879; --teal: #335f9b; --line: #dce4ee; }
+  .tinted { background: #f5f7fb; }
+  .hero { background: radial-gradient(ellipse at 85% 30%, #e5edfb, #e5edfb00 60%), #f7f9fd; }
+  .heroVisual { background: linear-gradient(145deg, #ffffffb3, #edf2fb); border-color: #d5dfef; }
+  .orbit, .orbitOne, .orbitTwo, .orbitThree { border-color: #c7d5e9; }
+  .orbit::before { border-color: #d1ddec; }
+  .core { box-shadow: 0 12px 32px #385c8614; }
+  .journey li, .engagement { border-color: #cdd9e9; }
+  .ai { background: linear-gradient(115deg, #eaf0fc, #f7f8fc); border-color: #d6dfef; }
+  .aiList li { border-color: #d1dbeb; }
+  .approachHeader { background: linear-gradient(110deg, #f1f5fb, #fcf8ef); }
+  .principle:first-child h3 { color: #385f90; background: #eaf0fa; box-shadow: inset 3px 0 0 #9bb2d2; }
+  .industry .cardNote { color: #45658f; }
+  .challenges > .heading h2 { color: #335f9b; }
+  .challenges .card:nth-child(3n + 1) { --challenge-accent: #385f90; border-color: #b8cbe4; box-shadow: inset 0 3px 0 #8faed2; }
+  .proof > .heading h2 { color: #456b9b; background-image: linear-gradient(105deg, #426fa8 5%, #6473a8 58%, #99618d 100%); }
+  .proof .case:first-child { border-color: #bdcfe8; background: linear-gradient(145deg, #f0f5fc, #fff 48%); box-shadow: inset 0 3px 0 #94aed2; }
+  .insights > .heading h2 { background-image: linear-gradient(105deg, #805a96 0%, #ad626f 52%, #426fa8 100%); }
+  .insights .card:nth-child(3) { --insight-accent: #385f90; border-color: #c2d2e9; background: radial-gradient(ellipse at top right, #e5edfb 0%, #e5edfb00 65%), #fbfcfe; box-shadow: inset 0 3px 0 #96b0d4; }
+}
+@media (max-width: 760px) and (forced-colors: active) {
+  .proof > .heading h2, .insights > .heading h2 { background: none; -webkit-text-fill-color: currentColor; }
+}

@@ -538,3 +538,6 @@
             }
         }
     
+
+/* Keep the authored light palette in browsers that support automatic darkening. */
+:root { color-scheme: only light; }
