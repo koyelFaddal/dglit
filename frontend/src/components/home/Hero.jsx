@@ -1,5 +1,6 @@
 import { assetPath } from "@/lib/assetPath";
 import Image from "next/image";
+import Link from "next/link";
 export default function Hero() {
     return (
         <>
@@ -26,12 +27,11 @@ export default function Hero() {
                             with deep industry expertise to transform complex challenges into competitive advantages for the
                             world's leading organizations.</p>
                         <div className="flex flex-wrap gap-4">
-                            <button
-                                className="bg-primary text-on-primary px-8 py-4 rounded-lg font-label-caps text-label-caps hover:shadow-lg transition-all">EXPLORE
-                                SOLUTIONS</button>
-                            <button
+                            <Link href="/solutions" className="bg-primary text-on-primary px-8 py-4 rounded-lg font-label-caps text-label-caps hover:shadow-lg transition-all">EXPLORE
+                                SOLUTIONS <span aria-hidden="true">→</span></Link>
+                            {/* <button
                                 className="border-[1.5px] border-primary text-primary px-8 py-4 rounded-lg font-label-caps text-label-caps hover:bg-primary/5 transition-all">VIEW
-                                CASE STUDIES</button>
+                                CASE STUDIES</button> */}
                         </div>
                     </div>
                 </div>
